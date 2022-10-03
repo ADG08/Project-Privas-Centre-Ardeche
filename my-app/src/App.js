@@ -1,6 +1,11 @@
+import NavBar from "./Components/NavBar";
+
 function App() {
   return (
-   <div>OUII</div>
+   <div>OUI C'est la premiere page nananere
+    <NavBar></NavBar>
+    <h1>C'est partie</h1>
+   </div>
   );
 }
 
