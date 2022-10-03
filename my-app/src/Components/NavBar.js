@@ -1,18 +1,29 @@
-import image from "../Images/logo.jpg"
-import './NavBar.css';
+import logo from "../Images/logo.jpg";
+import search from "../Images/Search_Noun_project_15028.png"
+import "./NavBar.css";
 
 function NavBar() {
-    return(
-        <div>
-            <img className="logo" src={image} alt="" ></img>
-            <h1 className="actus" href="Test">Les Actus</h1>
-            <h1 className="eco" href="Test">Économie</h1>
-            <h1 className="vivre" href="Test">Vivre a Privas</h1>
-            <h1 className="dec" href="Test">Decouvrir Privas</h1>
-            <h1 className="env" href="Test">Environnement</h1>
-            <h1 className="cult" href="Test">Culture</h1>
+  return (
+    <div className="Navbar">
+        <div className="leftSide">
+            <a href="./"><img src={logo} alt="" className="logo"></img></a>
         </div>
-    )
+      <div className="middle">
+        <div className="links">
+          <a href="Actus">Les Actus</a>
+          <a href="Economie">Économie</a>
+          <a href="Vivre-a-Privas">Vivre a Privas</a>
+          <a href="Decouvrir-Privas">Decouvrir Privas</a>
+          <a href="Environnement">Environnement</a>
+          <a href="Culture">Culture</a>
+        </div>
+      </div>
+      <div className="rightSide">
+        <input className="txt" type="text" placeholder="Search..." />
+        <input className="searchButton" type="image" src={search} alt=""/>
+      </div>
+    </div>
+  );
 }
 
 export default NavBar;
