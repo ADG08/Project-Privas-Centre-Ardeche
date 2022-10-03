@@ -1,11 +1,13 @@
-import NavBar from "./Components/NavBar";
+import NavBar from "./Components/NavBar"
+import test from "./Images/thum_privas-6.jpg"
+import "./App.css"
 
 function App() {
   return (
-   <div>OUI C'est la premiere page nananere
-    <NavBar></NavBar>
-    <h1>C'est partie</h1>
-   </div>
+    <div>
+      <NavBar></NavBar>
+      <img className="img" src={test} alt=""></img>
+    </div>
   );
 }
 

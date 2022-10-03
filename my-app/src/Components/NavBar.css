@@ -1,0 +1,122 @@
+.logo {
+  position: absolute;
+  width: 200px;
+  height: 90px;
+  left: 100px;
+  top: 20px;
+}
+
+.actus {
+  position: absolute;
+  width: 80px;
+  height: 40px;
+  left: 400px;
+  top: 55px;
+
+  font-family: "Kadwa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.eco {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 600px;
+    top: 55px;
+    
+
+font-family: 'Kadwa';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+.vivre{
+position: absolute;
+width: 115px;
+height: 40px;
+left: 800px;
+top: 55px;
+
+font-family: 'Kadwa';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #030303;
+}
+
+.dec{
+    position: absolute;
+width: 138px;
+height: 40px;
+left: 1015px;
+top: 55px;
+
+font-family: 'Kadwa';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #030303;
+}
+
+.env{
+    position: absolute;
+width: 132px;
+height: 40px;
+left: 1253px;
+top: 55px;
+
+font-family: 'Kadwa';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #030303;
+}
+
+.cult{
+    position: absolute;
+width: 68px;
+height: 40px;
+left: 1485px;
+top: 55px;
+
+font-family: 'Kadwa';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #030303;
+}
