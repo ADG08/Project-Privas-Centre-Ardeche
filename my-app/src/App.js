@@ -1,15 +1,20 @@
-import NavBar from "./Components/NavBar"
-import RapidButton from "./Components/RapidButton";
-import BackgroundImageTop from "./Images/thum_privas-6.jpg"
 import "./App.css"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Pages/Home";
+import Layout from "./Pages/Layout";
+import Environnement from "./Pages/Environnement";
+
 
 function App() {
   return (
-    <div>
-      <NavBar></NavBar>
-      <img className="img" src={BackgroundImageTop} alt=""></img>
-      <RapidButton></RapidButton>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="/Environnement" element={<Environnement />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
