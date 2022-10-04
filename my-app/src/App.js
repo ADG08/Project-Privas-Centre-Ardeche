@@ -1,12 +1,14 @@
 import NavBar from "./Components/NavBar"
-import test from "./Images/thum_privas-6.jpg"
+import RapidButton from "./Components/RapidButton";
+import BackgroundImageTop from "./Images/thum_privas-6.jpg"
 import "./App.css"
 
 function App() {
   return (
     <div>
       <NavBar></NavBar>
-      <img className="img" src={test} alt=""></img>
+      <img className="img" src={BackgroundImageTop} alt=""></img>
+      <RapidButton></RapidButton>
     </div>
   );
 }
