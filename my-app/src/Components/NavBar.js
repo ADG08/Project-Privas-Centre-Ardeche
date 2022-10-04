@@ -1,7 +1,7 @@
 import logo from "../Images/logo.jpg";
 import search from "../Images/Search_Noun_project_15028.png"
 import "./NavBar.css";
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 function NavBar() {
