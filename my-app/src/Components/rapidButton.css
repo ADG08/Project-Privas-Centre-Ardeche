@@ -1,4 +1,18 @@
-.ButtonDiv{
+.ButtonDiv {
     height: 434px;
+    display: flex;
+}
+
+.cercle {
     background-color: aquamarine;
+    border-radius: 90%;
+    width: 200px;
+    height: 200px;
+}
+
+.cercle img {
+    border-radius: 90%;
+    width: 200px;
+    height: 200px;
+    scale: 0.9;
 }

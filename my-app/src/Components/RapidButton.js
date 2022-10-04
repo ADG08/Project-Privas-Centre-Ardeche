@@ -1,8 +1,9 @@
 import "./rapidButton.css"
 
-function rapidButton(){
-    return(
-        <div className="ButtonDiv">
+function rapidButton({ image }) {
+    return (
+        <div className="cercle">
+            <img src={image} alt=""></img>
         </div>
     );
 }
