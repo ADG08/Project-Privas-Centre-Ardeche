@@ -12,7 +12,7 @@ function NavBar() {
       </div>
       <div className="middle">
         <div className="links">
-          <Link to="/Actus">Les Actus</Link>
+          <Link to="/Actus"></Link>
           <Link to="/Economie">Économie</Link>
           <Link to="/Vivre-a-Privas">Vivre a Privas</Link>
           <Link to="/Decouvrir-Privas">Decouvrir Privas</Link>
