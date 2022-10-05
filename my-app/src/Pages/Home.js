@@ -8,7 +8,7 @@ function Home() {
     <div>
       <img className="img" src={BackgroundImageTop} alt=""></img>
       <div className="ButtonDiv">
-        <RapidButton image={test} />
+        <RapidButton image={test} text="ouais"/>
         <RapidButton image={test} />
       </div>
     </div>
