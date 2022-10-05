@@ -8,11 +8,17 @@ function Home() {
     <div>
       <img className="img" src={BackgroundImageTop} alt=""></img>
       <div className="ButtonDiv">
-        <RapidButton image={test} text="ouais"/>
-        <RapidButton image={test} />
+        <RapidButton image={test} text="ouais" to="/environnement" />
+        <RapidButton image={test} text="ouais" to="/environnement" />
+        <RapidButton image={test} text="ouais" to="/environnement" />
+        <RapidButton image={test} text="ouais" to="/environnement" />
+        <RapidButton image={test} text="ouais" to="/environnement" />
+        <RapidButton image={test} text="ouais" to="/environnement" />
       </div>
     </div>
   );
 }
+
+
 
 export default Home;
