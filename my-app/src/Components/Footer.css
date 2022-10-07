@@ -1,0 +1,13 @@
+.Footer {
+    height: 593px;
+    background: #404040;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Footer .Map{
+    height: 285px;
+    width: 401px;
+    background-color: blue;
+}

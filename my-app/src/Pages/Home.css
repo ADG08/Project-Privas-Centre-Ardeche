@@ -17,8 +17,7 @@ button:hover {
 }
 
 .ButtonDiv {
-
   display: flex;
-  height: 434px;
   width: 100%;
+  justify-content: center;
 }
