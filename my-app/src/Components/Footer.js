@@ -2,7 +2,6 @@ import "./Footer.css"
 import test from "../Images/Home/IMG_4495.jpg"
 import RapidButton from "./RapidButton";
 import { Link } from "react-router-dom";
-import GoogleApiWrapper from "./GoogleApiWrapper"
 
 function Footer() {
     return (
@@ -12,8 +11,7 @@ function Footer() {
                 <p>Privas-centre-ardeche</p>
                 <p>1 Rue Serre du Serret 07000 Privas</p>
             </div>
-            <div >
-                <GoogleApiWrapper></GoogleApiWrapper>
+            <div>
             </div>
             <RapidButton image={test} text="ouais" to="/environnement" />
             <RapidButton image={test} text="ouais" to="/environnement" />

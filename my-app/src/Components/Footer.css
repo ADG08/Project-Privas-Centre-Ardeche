@@ -11,3 +11,12 @@
     width: 401px;
     background-color: blue;
 }
+
+.Footer .Liens li{
+    list-style-type: none;
+}
+
+.Footer .Liens li a{
+    text-decoration: none;
+    color: white;
+}
