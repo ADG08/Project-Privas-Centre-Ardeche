@@ -1,7 +1,6 @@
-import RapidButton from "../Components/RapidButton";
+import RapidButton from "../Components/RapidButton"
 import BackgroundImageTop from "../Images/thum_privas-6.jpg"
 import test from "../Images/Home/IMG_4495.jpg"
-import Footer from "../Components/Footer";
 import "./Home.css"
 
 function Home() {
@@ -12,10 +11,10 @@ function Home() {
       <div className="ButtonDiv">
         <RapidButton image={test} text="Présentation" to="/environnement" />
         <RapidButton image={test} text="Fonctionnement" to="/environnement" />
-        <RapidButton image={test} text="ouais" to="/environnement" />
-        <RapidButton image={test} text="ouais" to="/environnement" />
-        <RapidButton image={test} text="ouais" to="/environnement" />
-        <RapidButton image={test} text="ouais" to="/environnement" />
+        <RapidButton image={test} text="Compétences" to="/environnement" />
+        <RapidButton image={test} text="Communes" to="/environnement" />
+        <RapidButton image={test} text="Territoire" to="/environnement" />
+        <RapidButton image={test} text="Contact" to="/environnement" />
       </div>
     </div>
   );
