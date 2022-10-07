@@ -1,4 +1,37 @@
-.ButtonDiv{
-    height: 434px;
+.cercle {
     background-color: aquamarine;
+    border-radius: 90%;
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+}
+
+.cercle .items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cercle p {
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.cercle a {
+    border-radius: 90%;
+}
+
+.cercle img {
+    border-radius: 90%;
+    width: 200px;
+    height: 200px;
+    scale: 0.9;
+}
+
+.cercle img:hover {
+    opacity: 0%;
+    transition: 1s;
+
 }
