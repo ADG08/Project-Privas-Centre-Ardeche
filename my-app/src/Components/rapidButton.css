@@ -1,5 +1,5 @@
 .cercle {
-    background-color: aquamarine;
+    background-color: rgb(49, 113, 231);
     border-radius: 90%;
     width: 200px;
     height: 200px;
@@ -20,13 +20,15 @@
 }
 
 .cercle a {
+    width: 200px;
+    height: 200px;
     border-radius: 90%;
 }
 
 .cercle img {
     border-radius: 90%;
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     scale: 0.9;
 }
 
