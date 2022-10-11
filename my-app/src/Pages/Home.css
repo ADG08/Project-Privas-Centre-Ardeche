@@ -15,3 +15,9 @@ body {
 button:hover {
   cursor: pointer;
 }
+
+.ButtonDiv {
+  display: flex;
+  width: auto;
+  justify-content: center;
+}
