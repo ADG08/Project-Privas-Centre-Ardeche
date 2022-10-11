@@ -1,12 +1,24 @@
-.MainFooter{
+.Footer {
     height: 593px;
+    width: 100%;
     background: #404040;
     display: flex;
     flex-direction: column;
     color: white;
 }
 
-.Plan{
+.TopFooter {
+    flex: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TopFooter>* {
+    margin: 10px;
+}
+
+.BottomFooter {
     flex: 10%;
     margin: auto;
     display: flex;
@@ -15,95 +27,92 @@
     color: white;
 }
 
-.Plan a{
+.BottomFooter a {
     text-decoration: none;
     color: white;
 }
 
-.Footer {
-    flex: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
 
-.Footer .Map{
+
+.TopFooter .Map {
     height: 285px;
     width: 401px;
     background-color: blue;
 }
 
-.Footer .Liens li{
+.TopFooter .Liens li {
     list-style-type: none;
 }
 
-.Footer .Liens li a{
+.TopFooter .Liens li a {
     text-decoration: none;
     color: white;
 }
 
-.Footer .Contact{
+.TopFooter .Contact {
     flex: 15%;
     margin-left: 5%;
 }
 
-.Footer .Contact .Phone {
+.TopFooter .Contact .Phone {
     display: flex;
-    align-items:center ;
+    align-items: center;
 }
 
-.Footer .Contact .Phone img {
+.TopFooter .Contact .Phone img {
     width: 35px;
     height: 35px;
 }
 
-.Footer .Contact .Phone p{
+.TopFooter .Contact .Phone p {
     margin: auto;
     margin-left: 10%;
 }
 
-.Footer .Contact .Email {
+.TopFooter .Contact .Email {
     display: flex;
-    align-items:center ;
+    align-items: center;
 }
 
-.Footer .Contact .Email img {
+.TopFooter .Contact .Email img {
     width: 50px;
     height: 50px;
 }
 
-.Footer .Contact .Email p{
+.TopFooter .Contact .Email p {
     margin-right: auto;
 }
 
-.buttonFooter{
+.buttonFooter {
     flex: 30%;
     display: flex;
     align-self: center;
     justify-items: center;
 }
 
-.cercleFooter{
-    
+.buttonFooter>* {
+    margin-right: 10px;
+}
+
+.cercleFooter {
+
     background-color: rgb(49, 113, 231);
     border-radius: 90%;
     width: 150px;
     height: 150px;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin: auto;
 }
 
-.cercleFooter .cercleItem{
+.cercleFooter .cercleItem {
     width: 100px;
-    height: 100px; 
+    height: 100px;
     border-radius: 90%;
     background-color: #404040;
 }
 
-.cercleFooter a{
+.cercleFooter a {
     width: 100%;
     height: 100%;
     border-radius: 90%;
@@ -112,24 +121,24 @@
     justify-content: center;
 }
 
-.cercleFooter img{
+.cercleFooter img {
     width: 70%;
     height: 70%;
     border-radius: 90%;
 }
 
-.Footer .Liens{
+.TopFooter .Liens {
     flex: 15%;
     padding-left: 5%;
-    
+
 }
 
-.map{
+.map {
     width: 401px;
     height: 285px;
 }
 
-.map img{
+.map img {
     width: 100%;
     height: 100%;
 }
