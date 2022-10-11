@@ -5,12 +5,14 @@ import Titre_env from "../Images/Titres.png"
 function Environnement() {
   return (
     <div>
-      
-      <img className="imgtitrenv" src={Titre_env} alt=""></img>
+      <div  className="divimgtitre">
+        <img className="imgtitrenv" src={Titre_env} alt=""></img>
+      </div>
       <img className="imgenv" src={BackgroundImageTopEnv} alt=""></img>
-      <h1 className="env">Environnement</h1>
+      <div className="divenv">
+        <h1 className="env">Environnement</h1> 
+      </div>
     </div>
-   
   );
 }
 export default Environnement;

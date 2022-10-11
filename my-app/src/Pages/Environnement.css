@@ -1,31 +1,41 @@
 .imgenv {
-    width: 100%;
-    height: 700px;
-  }
-
-.env {
-    /* Environnement */
-
-position: absolute;
-width: 304px;
-height: 47px;
-left: 11%;
-top: 37%;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 900;
-font-size: 40px;
-line-height: 48px;
-letter-spacing: -0.02em;
-color: #FFFFFF;
-text-shadow: 0px 4px 4px #188019;
+  width: 100%;
+  height: 700px;
 }
 
-.imgtitrenv {
-position: absolute;
-width: 545px;
-height: 248px;
-left: 2%;
-top: 27%;
+.env {
+  position: absolute;
+  width: 100%;
+  top: 6vw; 
+  left: 4.5vw;
+  font-family: 'Inter';
+  font-style: normal;
+  font-size:2.5vw;
+  font-weight: 900;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  -webkit-text-stroke: 0.5px #053605;
+  text-shadow: 0px 4px 4px #18801a;
+}
 
+.divenv {
+  position: absolute;
+  width: 20vw;
+  height: 47px;
+  left: 40px;
+  top: 160px;
+}
+
+
+.imgtitrenv {
+  width: 100%;
+}
+
+.divimgtitre {
+  position: absolute;
+  width: 25%;
+  height: 248px;
+  left: 40px;
+  top: 199px;
 }
