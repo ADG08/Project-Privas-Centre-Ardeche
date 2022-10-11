@@ -75,8 +75,6 @@
     .Navbar .middle .links a {
         font-size: 20px;
     }
-
-
 }
 
 
@@ -100,11 +98,9 @@
         width: 100%;
         background-color: white;
         z-index: 1;
-        
     }
 
     .Navbar #hidden .links{
-        
         display: flex;
         flex-direction: column;
         align-items: center;
