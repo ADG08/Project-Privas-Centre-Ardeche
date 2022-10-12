@@ -1,7 +1,7 @@
 import "./Footer.css";
 import { Link } from "react-router-dom";
 import phoneImage from "../Images/phone.png";
-import emailImage from "../Images/email.jpg";
+import emailImage from "../Images/email.png";
 import youtubeImage from "../Images/youtube-play.png"
 import twitterImage from "../Images/Twitter.png"
 import facebookImage from "../Images/facebook.png"
