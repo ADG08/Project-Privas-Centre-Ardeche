@@ -2,8 +2,6 @@ import RapidButton from "../Components/RapidButton"
 import BackgroundImageTop from "../Images/thum_privas-6.jpg"
 import test from "../Images/Home/IMG_4495.jpg"
 import "./Home.css"
-import arrow from "../Images/arrow.png"
-import { Link } from "react-router-dom"
 import Slider from "../Components/Slider.js"
 
 function Home() {
@@ -19,21 +17,12 @@ function Home() {
         <RapidButton image={test} text="Territoire" to="/environnement" />
         <RapidButton image={test} text="Contact" to="/environnement" />
       </div>
-      <Slider />
-      {/*  
-      <div className="LastCarousel">
-        <img src={arrow} alt=""></img>
-
-        <div className="textDiv">
-          <h1>Infos Covid 19</h1>
-          <div className="boxDiv">
-            <p>blabla</p>
-            <Link to="/Travaux">Lire la suite</Link>
-          </div>
-        </div>
-        <img src={arrow} alt="" className="arrowRigth"></img>
+      <div className="firstCarousel">
+        <h1>Les Actus</h1>
+        <Slider classe="first"/>
       </div>
-      */}
+      <Slider classe="second" />
+      
     </div>
   );
 }
