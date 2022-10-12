@@ -4,6 +4,7 @@ import test from "../Images/Home/IMG_4495.jpg"
 import "./Home.css"
 import arrow from "../Images/arrow.png"
 import { Link } from "react-router-dom"
+import Slider from "../Components/Slider.js"
 
 function Home() {
   return (
@@ -18,6 +19,8 @@ function Home() {
         <RapidButton image={test} text="Territoire" to="/environnement" />
         <RapidButton image={test} text="Contact" to="/environnement" />
       </div>
+      <Slider />
+      {/*  
       <div className="LastCarousel">
         <img src={arrow} alt=""></img>
 
@@ -30,7 +33,7 @@ function Home() {
         </div>
         <img src={arrow} alt="" className="arrowRigth"></img>
       </div>
-
+      */}
     </div>
   );
 }
