@@ -22,7 +22,7 @@ button:hover {
   justify-content: center;
 }
 
-.LastCarousel{
+.LastCarousel {
   height: 748px;
   background-color: brown;
   display: flex;
@@ -30,23 +30,40 @@ button:hover {
   justify-content: space-between;
 }
 
-.LastCarousel img{
+.LastCarousel img {
   scale: 0.7;
 }
 
-.LastCarousel .arrowRigth{
+.LastCarousel .arrowRigth {
   rotate: 180deg;
 }
 
-.LastCarousel .textDiv{
+.LastCarousel .textDiv {
   margin-left: auto;
   margin-right: 20px;
   display: flex;
   flex-direction: column;
 }
 
-.LastCarousel .textDiv .boxDiv{
+.LastCarousel .textDiv .boxDiv {
   background-color: antiquewhite;
   height: 556px;
 }
 
+@media only screen and (max-width: 700px) {
+  .ButtonDiv {
+    flex-wrap: wrap;
+    height: 1000px;
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+
+  .ButtonDiv .cercle {
+    margin: 10px;
+  }
+
+  .ButtonTitle {
+    display: flex;
+    justify-content: center;
+  }
+}
