@@ -1,6 +1,6 @@
 import "./DecouvrirPrivas.css"
 import BackgroundImageTopDec from "../Images/Decouvrir-Privas/privas.PNG"
-import Titre_dec from "../Images/Decouvrir-Privas/titres.jpg"
+import Titre_dec from "../Images/Titres.png"
 
 function Decouvrir_Privas() {
   return (
