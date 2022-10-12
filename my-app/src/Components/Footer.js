@@ -1,11 +1,11 @@
 import "./Footer.css";
 import { Link } from "react-router-dom";
-import phoneImage from "../Images/phone.png";
-import emailImage from "../Images/email.png";
-import youtubeImage from "../Images/youtube-play.png"
-import twitterImage from "../Images/Twitter.png"
-import facebookImage from "../Images/facebook.png"
-import map from "../Images/map.png"
+import phoneImage from "../Images/Footer/Phone.png";
+import emailImage from "../Images/Footer/Email.png";
+import youtubeImage from "../Images/Footer/Youtube.png"
+import twitterImage from "../Images/Footer/Twitter.png"
+import facebookImage from "../Images/Footer/Facebook.png"
+import map from "../Images/Footer/Map.png"
 
 function Footer() {
   return (
