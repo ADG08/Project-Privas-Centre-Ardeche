@@ -1,11 +1,18 @@
-import "./Decouvrir-Privas.css"
+import "./DecouvrirPrivas.css"
+import BackgroundImageTopDec from "../Images/Decouvrir-Privas/privas.PNG"
+import Titre_dec from "../Images/Decouvrir-Privas/titres.jpg"
 
-function DecouvrirPrivas() {
+function Decouvrir_Privas() {
   return (
     <div>
-      <h1>la</h1>
+      <div  className="divimgtitre_dec">
+        <img className="imgtitredec" src={Titre_dec} alt=""></img>
+      </div>
+      <img className="imgdec" src={BackgroundImageTopDec} alt=""></img>
+      <div className="divdec">
+        <h1 className="dec">Découvrir Privas</h1> 
+      </div>
     </div>
   );
 }
-
-export default DecouvrirPrivas;
+export default Decouvrir_Privas;
