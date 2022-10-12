@@ -2,7 +2,7 @@ import "./Decouvrir-Privas.css"
 import BackgroundImageTopDec from "../Images/Decouvrir-Privas/privas.PNG"
 import Titre_dec from "../Images/Titres.png"
 
-function Environnement() {
+function Decouvrir_Privas() {
   return (
     <div>
       <div  className="divimgtitre_dec">
@@ -15,4 +15,4 @@ function Environnement() {
     </div>
   );
 }
-export default Environnement;
+export default Decouvrir_Privas;
