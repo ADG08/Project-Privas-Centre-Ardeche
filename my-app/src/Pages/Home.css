@@ -56,14 +56,23 @@ button:hover {
     height: 700px;
     align-items: flex-start;
     align-content: flex-start;
+
+    scale: 0.5;
   }
 
   .ButtonDiv .cercle {
     margin: 10px;
+    width: auto;
+  }
+
+  .ButtonDiv .cercle .items a {
+    width: auto;
   }
 
   .ButtonTitle {
     display: flex;
     justify-content: center;
   }
+
+
 }
