@@ -10,12 +10,12 @@ function Home() {
       <img className="img" src={BackgroundImageTop} alt=""></img>
       <h1 className="ButtonTitle">Notre Communauté</h1>
       <div className="ButtonDiv">
-        <RapidButton image={test} text="Présentation" to="/environnement" />
-        <RapidButton image={test} text="Fonctionnement" to="/environnement" />
-        <RapidButton image={test} text="Compétences" to="/environnement" />
-        <RapidButton image={test} text="Communes" to="/environnement" />
-        <RapidButton image={test} text="Territoire" to="/environnement" />
-        <RapidButton image={test} text="Contact" to="/environnement" />
+        <RapidButton image={test} text="Présentation" to="/Travaux" />
+        <RapidButton image={test} text="Fonctionnement" to="/Travaux" />
+        <RapidButton image={test} text="Compétences" to="/Travaux" />
+        <RapidButton image={test} text="Communes" to="/Travaux" />
+        <RapidButton image={test} text="Territoire" to="/Travaux" />
+        <RapidButton image={test} text="Contact" to="/Travaux" />
       </div>
       <div className="firstCarousel">
         <h1>Les Actus</h1>

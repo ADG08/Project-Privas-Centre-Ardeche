@@ -6,6 +6,7 @@ import image from "../Images/Home/thum_privas-6.jpg"
 import journeeEuro from "../Images/Home/journeeEuro.png"
 import projet from "../Images/Home/ImageProjet.jpg"
 import ImageEau from "../Images/Home/ImageEau.png"
+import ImageEnfant from "../Images/Home/Enfant.png"
 import { Link } from "react-router-dom";
 
 function Slider({classe}) {
@@ -34,7 +35,7 @@ function Slider({classe}) {
   const data2 = [
     {
       id: 1,
-      image: `${image}`,
+      image: `${ImageEnfant}`,
       title: "Action sociale",
       text: "Le Président de la Communauté d’Agglomération et les Vice-président(e)s et les conseillers membres du bureau vous souhaitent une belle année 2022, faite de projets, de réussites et de sérénité pour mieux vivre ensemble.",
     },
@@ -76,7 +77,7 @@ function Slider({classe}) {
     <Carousel autoPlay interval={6000} infiniteLoop>
       {datas.map(slide => (
         <div key={slide.id}>
-          <img src={slide.image} alt="" className="testw"/>
+          <img src={slide.image} alt=""/>
           <div className="overlay">
             <h2 className="overlay_title">{slide.title}</h2>
             <p className="overlay_text">{slide.text}</p>
