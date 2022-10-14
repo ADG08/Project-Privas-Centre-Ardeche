@@ -47,13 +47,40 @@
 
 }
 
-.cercle:nth-child(1) a{
-  border: 10px solid aqua;
-  background-color: none;
+.environnement .cercle:nth-child(1) a {
+  background-color: white;
+  box-shadow:0px 0px 0px 10px #F7AD00 inset;
+
 }
 
-.cercle:nth-child() img:hover {
-  opacity: 0%;
-  transition: 1s;
+.environnement .cercle:nth-child(1) {
+  position: absolute;
+  right: 20vw;
+}
 
+.environnement .cercle:nth-child(2) a {
+  background-color: white;
+  box-shadow:0px 0px 0px 10px #4AA003 inset;
+}
+
+.environnement .cercle:nth-child(2) {
+  position: absolute;
+  right: 20vw;
+  
+}
+
+.environnement .cercle:nth-child(3) a {
+  background-color: white;
+  box-shadow:0px 0px 0px 10px #188019 inset;
+}
+
+.environnement .cercle:nth-child(3) {
+  position: absolute;
+  top: 30vw;
+  right: 20vw;
+}
+
+.environnement .cercle img:hover {
+  opacity: 50%;
+  transition: 1s;
 }

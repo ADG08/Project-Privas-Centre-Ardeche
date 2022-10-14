@@ -5,7 +5,7 @@ import Titre_env from "../Images/Titres.png"
 
 function Environnement() {
   return (
-    <div>
+    <div className="environnement">
       <div  className="divimgtitre">
         <img className="imgtitrenv" src={Titre_env} alt=""></img>
       </div>
