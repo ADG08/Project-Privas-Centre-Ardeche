@@ -24,6 +24,18 @@ function Culture() {
         </div>
         <div className = "lignes"></div>
       </div>
+
+      <div className="troisiemePart">
+        <h1 className="titreSaison">Saison 2019/2020</h1>
+        <div className="saisons">
+          <div className="card"></div>
+          <div className = "separation"></div>
+        </div>
+      </div>
+
+      <div className="quatriemePart">
+        
+      </div>
     </div>
   );
 }
