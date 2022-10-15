@@ -51,7 +51,7 @@
     flex-wrap:nowrap;
 }
 
-.lignes {
+.lignesV1 {
     margin: 55px;
     width: 693px;
     height: 3px;
@@ -104,12 +104,12 @@
 /* --------------Troisième partie-------------- */
 .troisiemePart {
     background-color: #35B863;
-    height: 500px;
+    height: 620px;
     text-align: center;
 }
 
 .titreSaison {
-    width: 100px;
+    width: 300px;
     height: 47px;
     
     font-family: 'Smooch Sans';
@@ -130,26 +130,105 @@
     flex-direction: row;
 }
 
-.separation {
-    width: 160px;
-    border: 4px solid #FFFFFF;  
+.card {
+    margin : 10%;
+    margin-top: 2%;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
+/* --------------PAUSE partie-------------- */
+.pausePart {
+    background-image: url("../Images/culture/books.jpg"), linear-gradient(to bottom, rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.027) );
+    background-attachment: fixed;
+    height: 500px;
+    background-size:cover;
+    background-position: center;
+}
 
 /* --------------Quatrième partie-------------- */
 .quatriemePart {
-    background-color: white;
-    height: 740.42px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap:nowrap;
 }
+
+.quatriemePart div:nth-child(4), div:nth-child(5), div:nth-child(8) {
+    align-self: flex-end;
+}
+
+.liens {
+    text-decoration: none;
+    color: #F7AD00;
+
+    width: 200px;
+    height: 100px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.AnePasRater {
+    width: 590px;
+    height: 95px;
+
+    font-family: 'Smooch Sans';
+    font-style: normal;
+    font-size: 45px;
+    line-height: 77px;
+    letter-spacing: -0.02em;
+
+    color: #F7AD00;
+
+    margin-left: 30%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.lignesV2 {
+    margin: 30px;
+    width: 693px;
+    height: 3px;
+    border: 5px solid #F7AD00;
+    border-radius: 30px;
+}
+
+.carousel {
+    width: 800px;
+    margin-left: 25%;
+}
+
+.article1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.article1 div {
+    margin-right: 60px;
+    margin-left: 50px;
+}
+
+.article1 div:first-child {
+    margin-top: 12%;
+}
+
+.article2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.article2 div {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.article2 div:last-child {
+    margin-top: 15%;
+}
+
+
+/* --------------RESPONSIVE-------------- */
