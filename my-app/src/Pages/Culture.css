@@ -5,9 +5,13 @@
 }
 
 /* --------------Premiere partie-------------- */
-.imgFond {
+.premierePart {
 width: 100%;
 height: 800px;
+background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.199) ),url("../Images/culture/biblio_page_culture.jpg");
+background-attachment: fixed;
+background-size:cover;
+background-position: bottom;
 }
 
 .encadreTitre {
@@ -44,7 +48,7 @@ height: 248px;
     border: 5px solid rgba(92, 167, 242, 0.82);
 }
 
-.lignes:last-child {
+.deuxiemePart:last-child {
     align-self: flex-end;
 }
 
