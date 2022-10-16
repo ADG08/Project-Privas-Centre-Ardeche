@@ -229,6 +229,9 @@
     margin-top: 15%;
 }
 
+.img2Part4 {
+    width: 650px;
+}
 
 /* --------------RESPONSIVE-------------- */
 @media screen and (max-width: 1200px) {
