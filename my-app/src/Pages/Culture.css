@@ -27,8 +27,8 @@
     position: absolute;
     width: 304px;
     height: 47px;
-    left: 260px; /*16pourcent*/
-    top: 335px;/*42pourcent*/
+    left: 260px; 
+    top: 335px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -167,7 +167,6 @@
     
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
     font-size: 32px;
     line-height: 44px;
 }
@@ -232,3 +231,181 @@
 
 
 /* --------------RESPONSIVE-------------- */
+@media screen and (max-width: 1200px) {
+    .encadreTitre {
+        width: 350px;
+        height: 200px;
+    }
+    .titre {
+        left: 150px; 
+        top: 320px;
+    }
+    .imgPresentation {
+        margin-left: 30%;
+    }
+    .carousel {
+        margin-left: 18%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .imgPresentation {
+        margin-left: 60%;
+        width: 200px;
+    }
+    .carousel {
+        margin-left: 30%;
+        width: 500px;
+    }
+    .paragraphe {
+        width: 400px;
+        height: 233px;
+
+        margin-left: 30%;
+        margin-top: 6%;
+        margin-right: 9%;
+    }
+    .paragraphe p{
+        font-size: 15px;
+    }
+    .AnePasRater {
+        margin-left: 25%;
+        margin-top: 1%;
+        margin-bottom: 0;
+    }
+    .article1 div {
+        margin-left: 6%;
+    }
+    .img1Part4 {
+        width: 400px;
+    }
+    .article1 div:first-child {
+        margin-top: 8%;
+    }
+    .img2Part4 {
+        width: 400px;
+    }
+    .article2 div:last-child {
+        margin-top: 8%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .deuxiemePart {
+        display: block;
+    }
+    .banniere {
+        display: block;
+    }
+    .imgPresentation {
+        display: none;
+        margin-left: 40%;
+      }
+    .paragraphe {
+        position: static;
+        margin-top: 5%;
+    }
+    .lignesV1, .lignesV2 {
+        width: 85%;
+    }
+    .carousel {
+        margin-left: 21%;
+    }
+    .AnePasRater {
+        margin-left: 16%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .lignesV1 {
+        margin-left: 20px;
+        margin: 40px;
+        border: 3px solid rgba(92, 167, 242, 0.82);
+    }
+    .lignesV2 {
+        border: 3px solid #F7AD00;
+    }
+    .paragraphe {
+        margin-left: 24%;
+    }
+    .saisons {
+        flex-direction: column;
+    }
+    .card {
+        margin : 10%;
+        margin-top: 2%;
+        width: 600px;
+    }
+    .troisiemePart {
+        height: auto;
+    }
+    .carousel {
+        width: 350px;
+        margin-left: 27%;
+    }
+    .article1 {
+        display: block;
+    }
+    .article2 {
+        display: block;
+    }
+    .liens {
+        font-size: 24px;
+    }
+    .img1Part4 {
+        width: 280px;
+        margin-left: -20%;
+    }
+    .article1 div:first-child, .article2 div:last-child{
+        margin-top: 2%;
+    }
+    .img2Part4 {
+        width: 280px;
+        margin-left: 35%;
+    }
+     
+}
+
+@media screen and (max-width: 700px) {
+    .premierePart {
+        background-image: none;
+        height: 300px;
+    }
+    .encadreTitre {
+        width: auto;
+        height: 100px;
+        top: 30%;
+    }
+    .titre {
+        font-size: 26px;
+        top: 34%;
+        left: 17%;
+    }
+    .card {
+        width: 400px;
+        margin-left: 21%;
+    }
+    .pausePart {
+        height: 200px;
+    }
+    .AnePasRater {
+        font-size: 34px;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .paragraphe {
+        margin-left: auto;
+    }
+    .card {
+        margin-left: auto;
+    }
+    .AnePasRater {
+        margin-left: 0;
+    }
+}
+
+
+
+/* --------------ANIMATIONS (OU EN JS)-------------- */
