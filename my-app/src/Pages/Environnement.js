@@ -1,7 +1,9 @@
 import "./Environnement.css"
 import RapidButton from "../Components/RapidButton.js"
-import BackgroundImageTopEnv from "../Images/Environnement/env_home.png"
 import Titre_env from "../Images/Titres.png"
+import Energie_img from "../Images/Environnement/Energie.jpg"
+import Eau_img from "../Images/Environnement/eau.png"
+import dechets_img from "../Images/Environnement/tri_selectif.png"
 
 function Environnement() {
   return (
@@ -13,9 +15,9 @@ function Environnement() {
         <h1 className="env">Environnement</h1> 
       </div>
       <div className="ButtonDivEnv">
-        <RapidButton image={BackgroundImageTopEnv} text="Présentation" to="/environnement" />
-        <RapidButton image={BackgroundImageTopEnv} text="Fonctionnement" to="/environnement" />
-        <RapidButton image={BackgroundImageTopEnv} text="Compétences" to="/environnement" />
+        <RapidButton image={Energie_img} text="Energie" to="/environnement" />
+        <RapidButton image={Eau_img} text="Eau" to="/environnement" />
+        <RapidButton image={dechets_img} text="Déchets ménagers" to="/environnement" />
       </div>
     </div>
   );

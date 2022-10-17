@@ -1,6 +1,6 @@
 .environnement {
   width: 100%;
-  height: 50vw;
+  height: 100vh;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.626), rgba(0, 0, 0, 0.027) ),
                     url("../Images/Environnement/env_home.png");
   background-attachment: fixed;
@@ -48,7 +48,6 @@
   position: absolute;
   right: 20vw;
   top: 160px;
-
 }
 
 .environnement .cercle:nth-child(1) a {
@@ -60,6 +59,7 @@
 .environnement .cercle:nth-child(1) {
   position: absolute;
   right: 10vw;
+  transform: scale(1);
 }
 
 .environnement .cercle:nth-child(2) a {
@@ -69,9 +69,8 @@
 
 .environnement .cercle:nth-child(2) {
   position: absolute;
-  top : 50vw;
-  right: 20vw;
-  
+  top : 30vh;
+  transform: scale(1.5);
 }
 
 .environnement .cercle:nth-child(3) a {
@@ -81,11 +80,12 @@
 
 .environnement .cercle:nth-child(3) {
   position: absolute;
-  top: 30vw;
-  right: 20vw;
+  top: 52vh;
+  right: 27vw;
+  transform: scale(1.8);
 }
 
 .environnement .cercle img:hover {
-  opacity: 50%;
+  opacity: 0.5;
   transition: 1s;
 }
