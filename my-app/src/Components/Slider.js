@@ -7,6 +7,9 @@ import journeeEuro from "../Images/Home/journeeEuro.png"
 import projet from "../Images/Home/ImageProjet.jpg"
 import ImageEau from "../Images/Home/ImageEau.png"
 import ImageEnfant from "../Images/Home/Enfant.png"
+
+import imgCarousel1 from "../Images/culture/theatre2.jpg"
+import imgCarousel2 from "../Images/culture/theatre3.jpg"
 import { Link } from "react-router-dom";
 
 function Slider({classe}) {
@@ -65,12 +68,31 @@ function Slider({classe}) {
     }
   ]
 
+  const data3 =[
+    {
+      id: 1,
+      image: `${imgCarousel1}`,
+      title: "BLA",
+      text: "tactac",
+    },
+    {
+      id: 2,
+      image: `${imgCarousel2}`,
+      title: 'toc',
+      text: "bom",
+    }
+  ]
+
   let datas;
   
   if(classe === "first"){
     datas =data1;
-  }else{
+  }
+  if(classe === "second"){
     datas = data2;
+  }
+  if(classe === "culture"){
+    datas = data3;
   }
 
   return (
