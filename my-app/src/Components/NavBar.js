@@ -4,18 +4,26 @@ import "./NavBar.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import ReorderIcon from "@material-ui/icons/Reorder"
+import CloseIcon from '@material-ui/icons/Close';
 
 
 
 function NavBar() {
   const [showLinks,setShowLinks] = useState(false);
-
+  
+  let icon = <ReorderIcon/>
+  if (!showLinks){
+    icon = <ReorderIcon/>
+  }
+  else{
+    icon = <CloseIcon/>
+  }
   return (
     <div className="Navbar">
 
       <button onClick={() => setShowLinks(!showLinks)}>
         {" "}
-        <ReorderIcon/>
+        {icon}
       </button>
       <div className="leftSide">
         <Link to="/"><img src={logo} alt="" className="logo"></img></Link>

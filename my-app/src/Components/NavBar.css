@@ -33,7 +33,7 @@
 .Navbar .middle .links a {
     text-decoration: none;
     color: black;
-    font-size: 25px;
+    font-size: 1.3vw;
     margin: 15px;
 }
 
@@ -59,7 +59,7 @@
     height: 23px;
 }
 
-.Navbar button{
+.Navbar button {
     display: none;
     position: absolute;
     left: 0px;
@@ -67,19 +67,16 @@
     height: fit-content;
 }
 
-.Navbar #hidden{
+.Navbar #hidden {
     display: flex;
 }
 
 @media only screen and (max-width: 1450px) {
     .Navbar .middle .links a {
-        font-size: 20px;
     }
 }
 
-
-
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1200px) {
     .Navbar .middle {
         display: none;
     }
@@ -90,7 +87,7 @@
         background-color: white;
     }
 
-    .Navbar #hidden{
+    .Navbar #hidden {
         position: absolute;
         left: 0px;
         top: 160px;
@@ -100,29 +97,29 @@
         z-index: 1;
     }
 
-    .Navbar #hidden .links{
+    .Navbar #hidden .links {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .Navbar #hidden .links a{
-        top: 50px;  
+    .Navbar #hidden .links a {
+        top: 50px;
         font-size: 25px;
     }
 }
 
-@media only screen and (max-width: 700px){
-    .Navbar .rightSide{
+@media only screen and (max-width: 700px) {
+    .Navbar .rightSide {
         display: none;
     }
 
-    .Navbar #hidden{
+    .Navbar #hidden {
         padding-top: 50px;
     }
 
-    .Navbar #hiddenSearch{
+    .Navbar #hiddenSearch {
         position: absolute;
         top: 160px;
         display: flex;

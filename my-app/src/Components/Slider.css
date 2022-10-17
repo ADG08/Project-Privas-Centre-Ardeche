@@ -1,0 +1,37 @@
+.carousel {
+  position: relative;
+}
+
+.carousel .thumbs {
+  display: none;
+}
+
+.carousel .overlay {
+  width: 20%;
+  height: 80%;
+  position: absolute;
+  top: 10%;
+  transform: translateY(-50);
+  left: 70%;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
+  font-size: 1.5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.carousel .overlay_text {
+  word-wrap: break-word;
+}
+
+.carousel .overlay a {
+  color: black;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin: 0 5% 5% 0;
+
+}
