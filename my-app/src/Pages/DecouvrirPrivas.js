@@ -12,6 +12,11 @@ function Decouvrir_Privas() {
       <div className="divdec">
         <h1 className="dec">Découvrir Privas</h1> 
       </div>
+      <div className="ButtonDivEnv">
+        <RapidButton image={BackgroundImageTopDec} text = "Energie" to="/environnement" />
+        <RapidButton image={BackgroundImageTopDec} text="Eau" to="/environnement" />
+        <RapidButton image={BackgroundImageTopDec} text="Déchets ménagers" to="/environnement" />
+      </div>
     </div>
   );
 }
