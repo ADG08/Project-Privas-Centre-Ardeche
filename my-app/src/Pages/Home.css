@@ -8,8 +8,18 @@ body {
   padding: 0;
 }
 
-.img {
+.back {
   width: 100%;
+  height: 800px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0.027) ),
+                  url("../Images/Home/thum_privas-6.jpg");
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: bottom;
+}
+
+.img{
+  position: absolute;
 }
 
 button:hover {

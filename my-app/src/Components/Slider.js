@@ -86,7 +86,6 @@ function Slider({classe}) {
         </div>
       ))}
     </Carousel>
-
   );
 }
 

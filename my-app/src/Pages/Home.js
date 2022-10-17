@@ -7,7 +7,8 @@ import Slider from "../Components/Slider.js"
 function Home() {
   return (
     <div>
-      <img className="img" src={BackgroundImageTop} alt=""></img>
+      <div className="back">
+      </div>
       <h1 className="ButtonTitle">Notre Communauté</h1>
       <div className="ButtonDiv">
         <RapidButton image={test} text="Présentation" to="/Travaux" />
