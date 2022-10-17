@@ -9,7 +9,6 @@ function Environnement() {
       <div  className="divimgtitre">
         <img className="imgtitrenv" src={Titre_env} alt=""></img>
       </div>
-      <img className="imgenv" src={BackgroundImageTopEnv} alt=""></img>
       <div className="divenv">
         <h1 className="env">Environnement</h1> 
       </div>
