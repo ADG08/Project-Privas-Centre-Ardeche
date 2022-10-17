@@ -10,7 +10,7 @@ import Slider from "../Components/Slider"
 
 function Culture() {
   return (
-    <div className="body">
+    <div className="bodyCulture">
 
       <div className="premierePart">
         <img src = {encadreTitre} alt = "" className="encadreTitre"></img>
