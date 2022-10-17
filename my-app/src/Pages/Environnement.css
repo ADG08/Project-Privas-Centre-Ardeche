@@ -86,6 +86,6 @@
 }
 
 .environnement .cercle img:hover {
-  opacity: 0.5;
+  opacity: 25%;
   transition: 1s;
 }

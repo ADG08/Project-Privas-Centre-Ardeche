@@ -15,7 +15,7 @@ function Environnement() {
         <h1 className="env">Environnement</h1> 
       </div>
       <div className="ButtonDivEnv">
-        <RapidButton image={Energie_img} text="Energie" to="/environnement" />
+        <RapidButton image={Energie_img} text = "Energie" to="/environnement" />
         <RapidButton image={Eau_img} text="Eau" to="/environnement" />
         <RapidButton image={dechets_img} text="Déchets ménagers" to="/environnement" />
       </div>
