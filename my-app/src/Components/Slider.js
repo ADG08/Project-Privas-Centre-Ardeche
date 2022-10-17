@@ -72,14 +72,14 @@ function Slider({classe}) {
     {
       id: 1,
       image: `${imgCarousel1}`,
-      title: "BLA",
-      text: "tactac",
+      title: "« Espace culturel Louis Nodon » à Vernoux en Vivarais",
+      text: "L’« Espace culturel Louis Nodon » a été inauguré le 24 novembre 2012. Cette salle propose depuis, une diversité de spectacles à destination de tous : théâtre, musique, danse, cirque, etc...",
     },
     {
       id: 2,
       image: `${imgCarousel2}`,
-      title: 'toc',
-      text: "bom",
+      title: "« Espace culturel Louis Nodon » à Vernoux en Vivarais",
+      text: "L’« Espace culturel Louis Nodon » a été inauguré le 24 novembre 2012. Cette salle propose depuis, une diversité de spectacles à destination de tous : théâtre, musique, danse, cirque, etc...",
     }
   ]
 

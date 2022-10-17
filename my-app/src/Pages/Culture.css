@@ -104,7 +104,7 @@
 /* --------------Troisième partie-------------- */
 .troisiemePart {
     background-color: #35B863;
-    height: 620px;
+    height: 700px;
     text-align: center;
 }
 
@@ -245,6 +245,9 @@
     }
     .imgPresentation {
         margin-left: 30%;
+    }
+    .troisiemePart {
+        height: 600px;
     }
     .carousel {
         margin-left: 18%;
@@ -419,4 +422,9 @@
     left: 10%;
     bottom: 10%;
     top: auto;
+}
+
+.carousel .overlay_text {
+    word-wrap: break-word;
+    font-size: 0.7vw;
 }
