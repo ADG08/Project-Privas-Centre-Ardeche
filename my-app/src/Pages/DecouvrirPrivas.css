@@ -27,7 +27,6 @@
     top: 160px;
   }
   
-  
   .imgtitredec {
     width: 100%;
   }
@@ -39,49 +38,49 @@
     left: 40px;
     top: 199px;
   }
-
-  .ButtonDivEnv {
+  
+  .ButtonDivDec {
     position: absolute;
     right: 20vw;
     top: 160px;
   }
   
-  .Decouvrir_Privas .cercle:nth-child(1) a {
+  .ButtonDivDec .cercle:nth-child(1) a {
     background-color: white;
     box-shadow:0px 0px 0px 10px #F7AD00 inset;
   
   }
   
-  .Decouvrir_Privas .cercle:nth-child(1) {
+  .ButtonDivDec .cercle:nth-child(1) {
     position: absolute;
     right: 10vw;
     transform: scale(1);
   }
   
-  .Decouvrir_Privas .cercle:nth-child(2) a {
+  .ButtonDivDec .cercle:nth-child(2) a {
     background-color: white;
     box-shadow:0px 0px 0px 10px #4AA003 inset;
   }
   
-  .Decouvrir_Privas .cercle:nth-child(2) {
+  .ButtonDivDec .cercle:nth-child(2) {
     position: absolute;
     top : 30vh;
     transform: scale(1.5);
   }
   
-  .Decouvrir_Privas .cercle:nth-child(3) a {
+  .ButtonDivDec .cercle:nth-child(3) a {
     background-color: white;
     box-shadow:0px 0px 0px 10px #188019 inset;
   }
   
-  .Decouvrir_Privas .cercle:nth-child(3) {
+  .ButtonDivDec .cercle:nth-child(3) {
     position: absolute;
     top: 52vh;
     right: 27vw;
     transform: scale(1.8);
   }
   
-  .Decouvrir_Privas .cercle img:hover {
+  .ButtonDivDec .cercle img:hover {
     opacity: 25%;
     transition: 1s;
   }
