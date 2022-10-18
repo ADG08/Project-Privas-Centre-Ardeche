@@ -52,7 +52,7 @@
 
 .environnement .cercle:nth-child(1) a {
   background-color: white;
-  box-shadow:0px 0px 0px 10px #F7AD00 inset;
+  box-shadow:0px 0px 0px 9px #F7AD00;
 
 }
 
@@ -64,7 +64,7 @@
 
 .environnement .cercle:nth-child(2) a {
   background-color: white;
-  box-shadow:0px 0px 0px 10px #4AA003 inset;
+  box-shadow:0px 0px 0px 9px #4AA003;
 }
 
 .environnement .cercle:nth-child(2) {
@@ -75,7 +75,7 @@
 
 .environnement .cercle:nth-child(3) a {
   background-color: white;
-  box-shadow:0px 0px 0px 10px #188019 inset;
+  box-shadow:0px 0px 0px 9px #188019;
 }
 
 .environnement .cercle:nth-child(3) {
@@ -88,4 +88,33 @@
 .environnement .cercle img:hover {
   opacity: 25%;
   transition: 1s;
+}
+
+.ButtonDivEnv .cercle .items p {
+  font-size: 2vw;
+  text-align: center;
+}
+
+@media only screen and (max-width: 765px) {
+  .ButtonDiv {
+    height: 250px;
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+
+  .ButtonDivEnv .cercle {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .ButtonDivEnv .cercle .items a {
+    width: auto;
+    width: 100px;
+    height: 100px;
+  }
+  .ButtonDivEnv .cercle .items p {
+    font-size: 3vw;
+    text-align: center;
+  }
 }
