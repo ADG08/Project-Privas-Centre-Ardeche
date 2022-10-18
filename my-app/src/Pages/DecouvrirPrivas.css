@@ -47,7 +47,7 @@
   
   .ButtonDivDec .cercle:nth-child(1) a {
     background-color: white;
-    box-shadow:0px 0px 0px 10px #F7AD00 inset;
+    box-shadow:0px 0px 0px 10px #F7AD00;
   }
   
   .ButtonDivDec .cercle:nth-child(1) {
@@ -58,7 +58,7 @@
   
   .ButtonDivDec .cercle:nth-child(2) a {
     background-color: white;
-    box-shadow:0px 0px 0px 10px #4AA003 inset;
+    box-shadow:0px 0px 0px 10px #4AA003;
   }
   
   .ButtonDivDec .cercle:nth-child(2) {
@@ -69,7 +69,7 @@
   
   .ButtonDivDec .cercle:nth-child(3) a {
     background-color: white;
-    box-shadow:0px 0px 0px 10px #188019 inset;
+    box-shadow:0px 0px 0px 10px #188019;
   }
   
   .ButtonDivDec .cercle:nth-child(3) {
@@ -82,4 +82,33 @@
   .ButtonDivDec .cercle img:hover {
     opacity: 25%;
     transition: 1s;
+  }
+
+  .ButtonDivDec .cercle .items p {
+    font-size: 2vw;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 765px) {
+    .ButtonDivDec {
+      height: 250px;
+      align-items: flex-start;
+      align-content: flex-start;
+    }
+  
+    .ButtonDivDec .cercle {
+      margin: 10px;
+      width: 100px;
+      height: 100px;
+    }
+  
+    .ButtonDivDec .cercle .items a {
+      width: auto;
+      width: 100px;
+      height: 100px;
+    }
+    .ButtonDivDec .cercle .items p {
+      font-size: 3vw;
+      text-align: center;
+    }
   }
