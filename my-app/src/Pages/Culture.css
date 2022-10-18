@@ -278,6 +278,19 @@ div:nth-child(8) {
     margin-left: 25%;
 }
 
+.bodyCulture .quatriemePart .overlay {
+    width: 80%;
+    height: 30%;
+    left: 10%;
+    bottom: 10%;
+    top: auto;
+}
+
+.carousel .overlay_text {
+    word-wrap: break-word;
+    font-size: 0.7vw;
+}
+
 .article1 {
     display: flex;
     flex-direction: row-reverse;
@@ -530,18 +543,4 @@ div:nth-child(8) {
 }
 
 
-
 /* --------------ANIMATIONS (OU EN JS)-------------- */
-
-.bodyCulture .quatriemePart .overlay {
-    width: 80%;
-    height: 30%;
-    left: 10%;
-    bottom: 10%;
-    top: auto;
-}
-
-.carousel .overlay_text {
-    word-wrap: break-word;
-    font-size: 0.7vw;
-}
