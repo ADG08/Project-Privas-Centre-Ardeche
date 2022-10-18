@@ -32,7 +32,6 @@
 
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 900;
     font-size: 40px;
     line-height: 48px;
     letter-spacing: -0.02em;
@@ -88,31 +87,56 @@
 }
 
 .ButtonDivCult .cercle .items p {
-    font-size: 2vw;
+    font-size: 1.5vw;
     text-align: center;
-  }
+}
+.ButtonDivCult .cercle:nth-child(1) .items p {
+    font-size: 1.5vw;
+    text-align: center;
+}
   
+
+  /*----RESPONSIVE des buttons---*/
   @media only screen and (max-width: 765px) {
-    .ButtonDivCult {
-      height: 250px;
-      align-items: flex-start;
-      align-content: flex-start;
-    }
-  
+    
     .ButtonDivCult .cercle {
       margin: 10px;
       width: 100px;
       height: 100px;
     }
-  
+
+    .ButtonDivCult .cercle:nth-child(3) {
+        top: 29vh;
+        right: 48vw;
+    }
+    .ButtonDivCult .cercle:nth-child(2) {
+        top: 31vh;
+        right: 15vw;
+    }
+    .ButtonDivCult .cercle:nth-child(1) {
+        top: 34vh;
+        left: -7vw;
+    }
+
     .ButtonDivCult .cercle .items a {
       width: auto;
       width: 100px;
       height: 100px;
     }
+
     .ButtonDivCult .cercle .items p {
-      font-size: 3vw;
+      font-size: 2vw;
       text-align: center;
+    }
+    .ButtonDivCult .cercle:nth-child(1) .items p {
+        font-size: 1.7vw;
+        margin-top: 2vw;
+    }
+    .ButtonDivCult .cercle:nth-child(2) .items p {
+        margin-top: 2vw;
+    }
+    .ButtonDivCult .cercle:nth-child(3) .items p {
+        margin-top: 1vw;
     }
   }
 
@@ -495,22 +519,24 @@ div:nth-child(8) {
 
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 765px) {
     .premierePart {
         background-image: none;
-        height: 300px;
+        background-color: aliceblue;
+        height: 350px;
     }
 
     .encadreTitre {
         width: auto;
         height: 100px;
         top: 30%;
+        left: 35vw;
     }
 
     .titre {
         font-size: 26px;
         top: 34%;
-        left: 17%;
+        left: 44vw;
     }
 
     .card {
