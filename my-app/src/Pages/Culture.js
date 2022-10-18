@@ -6,6 +6,9 @@ import img2 from "../Images/culture/cultureSaison.jpg"
 import soutienArt from "../Images/culture/soutienArt.jpg"
 import imgTheatrePrivas from "../Images/culture/theatre4.jpg"
 import RapidButton from "../Components/RapidButton.js"
+import imgPatrimoine from "../Images/culture/rapidButton_Patrimoine.png"
+import imgTheatre from "../Images/culture/theatrePrivas.jpg"
+import imgScience from "../Images/culture/scienceCity.png"
 
 import Slider from "../Components/Slider"
 
@@ -17,9 +20,9 @@ function Culture() {
         <img src={encadreTitre} alt="" className="encadreTitre"></img>
         <h1 className="titre">Culture</h1>
         <div className="ButtonDivCult">
-          <RapidButton image={imgPresentation} text="Energie" to="/environnement" />
-          <RapidButton image={imgPresentation} text="Eau" to="/environnement" />
-          <RapidButton image={imgPresentation} text="Déchets ménagers" to="/environnement" />
+          <RapidButton image={imgScience} text="Culture scientifique, technique et industrielle" to="/culture" />
+          <RapidButton image={imgTheatre} text="Théâtre de Privas" to="/culture" />
+          <RapidButton image={imgPatrimoine} text="Patrimoine" to="/culture" />
         </div>
       </div>
 
