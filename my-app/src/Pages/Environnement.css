@@ -96,25 +96,43 @@
 }
 
 @media only screen and (max-width: 765px) {
-  .ButtonDivEnv {
-    height: 250px;
-    align-items: flex-start;
-    align-content: flex-start;
-  }
-
+    
   .ButtonDivEnv .cercle {
     margin: 10px;
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
+  }
+
+  .ButtonDivEnv .cercle:nth-child(3) {
+      top: 29vh;
+      right: 48vw;
+  }
+  .ButtonDivEnv .cercle:nth-child(2) {
+      top: 31vh;
+      right: 15vw;
+  }
+  .ButtonDivEnv .cercle:nth-child(1) {
+      top: 34vh;
+      left: -7vw;
   }
 
   .ButtonDivEnv .cercle .items a {
-    width: auto;
     width: 100px;
     height: 100px;
   }
+
   .ButtonDivEnv .cercle .items p {
-    font-size: 3vw;
+    font-size: 2vw;
     text-align: center;
+  }
+  .ButtonDivEnv .cercle:nth-child(1) .items p {
+      font-size: 1.7vw;
+      margin-top: 2vw;
+  }
+  .ButtonDivEnv .cercle:nth-child(2) .items p {
+      margin-top: 2vw;
+  }
+  .ButtonDivEnv .cercle:nth-child(3) .items p {
+      margin-top: 1vw;
   }
 }
