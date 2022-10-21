@@ -21,6 +21,9 @@ body {
     background-attachment: fixed;
     background-size:cover;
     background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .img{
@@ -101,6 +104,13 @@ button:hover {
   margin: 0;
   margin-left: 1.2%;
 
+}
+
+.Typewriter{
+  background-color: #000;
+  margin: 0;
+  color: white;
+  font-size: 3vw;
 }
 
 @media only screen and (max-width: 765px) {

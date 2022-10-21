@@ -2,11 +2,29 @@ import RapidButton from "../Components/RapidButton"
 import test from "../Images/Home/IMG_4495.jpg"
 import "./Home.css"
 import Slider from "../Components/Slider.js"
+import Typewriter from "typewriter-effect"
 
 function Home() {
   return (
     <div>
       <div className="back">
+        <Typewriter
+          onInit={(typewriter) =>{
+            typewriter
+              .pauseFor(1000)
+              .typeString("Envie de ")
+              .pauseFor(1000)
+              .typeString("montagne ?")
+              .pauseFor(1000)
+              .deleteChars(12)
+              .pauseFor(1000)
+              .typeString("'histoire ?")
+              .pauseFor(1000)
+              .deleteAll()
+              .typeString("BIENVENUE A PRIVAS CENTRE ARDECHE")
+              .start()
+          }}
+        />
       </div>
       <h1 className="ButtonTitle">Notre Communauté</h1>
       <div className="ButtonDiv">
