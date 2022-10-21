@@ -12,12 +12,9 @@ function Home() {
           onInit={(typewriter) =>{
             typewriter
               .pauseFor(1000)
-              .typeString("Envie de ")
-              .pauseFor(1000)
-              .typeString("montagne ?")
+              .typeString("Envie de montagne ?")
               .pauseFor(1000)
               .deleteChars(12)
-              .pauseFor(1000)
               .typeString("'histoire ?")
               .pauseFor(1000)
               .deleteAll()
