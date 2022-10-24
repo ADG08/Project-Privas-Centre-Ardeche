@@ -31,9 +31,9 @@ function NavBar() {
       
       <div className="middle" id={showLinks ? "hidden" : ""}>
         <div className="links">
-          <Link to="/Actus">Les Actus</Link>
-          <Link to="/Economie">Économie</Link>
-          <Link to="/Vivre-a-Privas">Vivre a Privas</Link>
+          <Link to="/Travaux">Les Actus</Link>
+          <Link to="/Travaux">Économie</Link>
+          <Link to="/Travaux">Vivre a Privas</Link>
           <Link to="/Decouvrir-Privas">Decouvrir Privas</Link>
           <Link to="/Environnement">Environnement</Link>
           <Link to="/Culture">Culture</Link>

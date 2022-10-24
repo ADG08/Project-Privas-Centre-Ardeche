@@ -6,7 +6,6 @@ import competenceImg from "../Images/Home/competences.png"
 import communeImg from "../Images/Home/communes.png"
 import territoireImg from "../Images/Home/territoire.png"
 import contactImg from "../Images/Home/contact.png"
-import poubellesImg from "../Images/Home/poubelles.jpg"
 
 import RapidButton from "../Components/RapidButton"
 import Slider from "../Components/Slider.js"
@@ -47,8 +46,12 @@ function Home() {
         <h1>Les Actus</h1>
         <Slider classe="first"/>
       </div>
-      <h1 className="secondCarouselTitle">Info Covid 19</h1>
-      <Slider classe="second" />
+      
+      <div className="secondCarousel">
+        <h1 className="secondCarouselTitle">Info Covid 19</h1>
+        <Slider classe="second" />
+      </div>
+      
       
     </div>
   );
