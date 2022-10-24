@@ -7,7 +7,7 @@
     position: absolute;
     width: 100%;
     top: 6vw; 
-    left: 4.5vw;
+    left: 3vw;
     font-family: 'Inter';
     font-style: normal;
     font-size:2.5vw;
@@ -19,14 +19,13 @@
     text-shadow: 0px 4px 4px #18801a;
   }
   
-  .divendivdec {
+  .divdec {
     position: absolute;
     width: 20vw;
     height: 47px;
     left: 40px;
     top: 160px;
   }
-  
   
   .imgtitredec {
     width: 100%;
@@ -38,4 +37,78 @@
     height: 248px;
     left: 40px;
     top: 199px;
+  }
+  
+  .ButtonDivDec {
+    position: absolute;
+    right: 20vw;
+    top: 160px;
+  }
+  
+  .ButtonDivDec .cercle:nth-child(1) a {
+    background-color: white;
+    box-shadow:0px 0px 0px 10px #F7AD00;
+  }
+  
+  .ButtonDivDec .cercle:nth-child(1) {
+    position: absolute;
+    right: 10vw;
+    transform: scale(1);
+  }
+  
+  .ButtonDivDec .cercle:nth-child(2) a {
+    background-color: white;
+    box-shadow:0px 0px 0px 10px #4AA003;
+  }
+  
+  .ButtonDivDec .cercle:nth-child(2) {
+    position: absolute;
+    top : 30vh;
+    transform: scale(1.5);
+  }
+  
+  .ButtonDivDec .cercle:nth-child(3) a {
+    background-color: white;
+    box-shadow:0px 0px 0px 10px #188019;
+  }
+  
+  .ButtonDivDec .cercle:nth-child(3) {
+    position: absolute;
+    top: 52vh;
+    right: 27vw;
+    transform: scale(1.8);
+  }
+  
+  .ButtonDivDec .cercle img:hover {
+    opacity: 25%;
+    transition: 1s;
+  }
+
+  .ButtonDivDec .cercle .items p {
+    font-size: 2vw;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 765px) {
+    .ButtonDivDec {
+      height: 250px;
+      align-items: flex-start;
+      align-content: flex-start;
+    }
+  
+    .ButtonDivDec .cercle {
+      margin: 10px;
+      width: 100px;
+      height: 100px;
+    }
+  
+    .ButtonDivDec .cercle .items a {
+      width: auto;
+      width: 100px;
+      height: 100px;
+    }
+    .ButtonDivDec .cercle .items p {
+      font-size: 3vw;
+      text-align: center;
+    }
   }
