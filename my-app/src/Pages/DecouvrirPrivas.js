@@ -5,6 +5,7 @@ import Titre_dec from "../Images/Titres.png"
 import Communes_img from "../Images/Decouvrir-Privas/privas_communes.png"
 import tourisme_img from "../Images/Decouvrir-Privas/tourrisme.png"
 import territoire_img from "../Images/Decouvrir-Privas/cerisier.png"
+import "./DecouvrirPrivas.js"
 
 function Decouvrir_Privas() {
   return (
@@ -21,7 +22,9 @@ function Decouvrir_Privas() {
         <RapidButton image={Communes_img} text="Communes" to="/environnement" />
         <RapidButton image={territoire_img} text="Un territoire à forte identité " to="/environnement" />
       </div>
+      <h1>LA</h1>
     </div>
   );
 }
+
 export default Decouvrir_Privas;
