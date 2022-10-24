@@ -11,6 +11,7 @@ import imgTheatre from "../Images/culture/theatrePrivas.jpg"
 import imgScience from "../Images/culture/scienceCity.png"
 
 import Slider from "../Components/Slider"
+import { Link } from "react-router-dom"
 
 function Culture() {
   return (
@@ -73,13 +74,13 @@ function Culture() {
 
         <div className="lignesV2"></div>
         <div className="article1">
-          <div><a href="" className="liens">Soutien matériel aux pratiques artistiques et à la création</a></div>
+          <div><Link to="/Travaux" className="liens">Soutien matériel aux pratiques artistiques et à la création</Link></div>
           <div><img src={soutienArt} alt="" className="img1Part4"></img></div>
         </div>
         <div className="lignesV2"></div>
         <div className="article2">
           <div><img src={imgTheatrePrivas} alt="" className="img2Part4"></img></div>
-          <div><a href="" className="liens">Espace d’art contemporain du Théâtre de Privas</a></div>
+          <div><Link to="/Travaux" className="liens">Espace d’art contemporain du Théâtre de Privas</Link></div>
         </div>
         <div className="lignesV2"></div>
       </div>
