@@ -1,0 +1,581 @@
+.bodyCulture {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* --------------Premiere partie-------------- */
+.premierePart {
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.027)),
+        url("../Images/culture/biblio_page_culture.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.encadreTitre {
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    width: 545px;
+    height: 248px;
+}
+
+.titre {
+    position: absolute;
+    width: 304px;
+    height: 47px;
+    left: 260px;
+    top: 335px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px #188019;
+}
+
+.ButtonDivCult {
+    position: absolute;
+    right: 20vw;
+    top: 160px;
+}
+
+.ButtonDivCult .cercle:nth-child(1) a {
+    background-color: white;
+    box-shadow: 0px 0px 0px 10px #F7AD00 inset;
+}
+
+.ButtonDivCult .cercle:nth-child(1) {
+    position: absolute;
+    right: 10vw;
+    transform: scale(1);
+}
+
+.ButtonDivCult .cercle:nth-child(2) a {
+    background-color: white;
+    box-shadow: 0px 0px 0px 10px #4AA003 inset;
+}
+
+.ButtonDivCult .cercle:nth-child(2) {
+    position: absolute;
+    top: 30vh;
+    transform: scale(1.5);
+}
+
+.ButtonDivCult .cercle:nth-child(3) a {
+    background-color: white;
+    box-shadow: 0px 0px 0px 10px #188019 inset;
+}
+
+.ButtonDivCult .cercle:nth-child(3) {
+    position: absolute;
+    top: 52vh;
+    right: 27vw;
+    transform: scale(1.8);
+}
+
+.ButtonDivCult .cercle img:hover {
+    opacity: 25%;
+    transition: 1s;
+}
+
+.ButtonDivCult .cercle .items p {
+    font-size: 1.5vw;
+    text-align: center;
+}
+  
+
+  /*----RESPONSIVE des buttons---*/
+  @media only screen and (max-width: 765px) {
+
+    .ButtonDivCult .cercle {
+      margin: 10px;
+      width: 100px;
+      height: 100px;
+    }
+
+    .ButtonDivCult .cercle:nth-child(3) {
+        top: 29vh;
+        right: 48vw;
+    }
+    .ButtonDivCult .cercle:nth-child(2) {
+        top: 31vh;
+        right: 15vw;
+    }
+    .ButtonDivCult .cercle:nth-child(1) {
+        top: 34vh;
+        left: -7vw;
+    }
+    
+    .ButtonDivCult .cercle:nth-child(1) a {
+        box-shadow: 0px 0px 0px 5px #F7AD00 inset;
+    }
+
+    .ButtonDivCult .cercle:nth-child(2) a {
+        background-color: white;
+        box-shadow: 0px 0px 0px 5px #4AA003 inset;
+    }
+
+    .ButtonDivCult .cercle:nth-child(3) a {
+        background-color: white;
+        box-shadow: 0px 0px 0px 5px #188019 inset;
+    }
+
+    .ButtonDivCult .cercle .items a {
+      width: auto;
+      width: 100px;
+      height: 100px;
+    }
+
+    .ButtonDivCult .cercle .items p {
+      font-size: 2vw;
+      text-align: center;
+    }
+    .ButtonDivCult .cercle:nth-child(1) .items p {
+        font-size: 1.7vw;   
+        margin-top: 2vw;
+    }
+    .ButtonDivCult .cercle:nth-child(2) .items p {
+        margin-top: 2vw;
+    }
+    .ButtonDivCult .cercle:nth-child(3) .items p {
+        margin-top: 1vw;
+    }
+  }
+
+
+/* --------------Deuxième partie-------------- */
+.deuxiemePart {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.lignesV1 {
+    margin: 55px;
+    width: 693px;
+    height: 3px;
+    border: 5px solid rgba(92, 167, 242, 0.82);
+    border-radius: 30px;
+}
+
+.deuxiemePart div:nth-child(3) {
+    align-self: flex-end;
+}
+
+.banniere {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.imgPresentation {
+    margin-left: 10%;
+    border-radius: 30px;
+}
+
+.paragraphe {
+    padding: 1.6em;
+    width: 648px;
+    height: 233px;
+
+    background: rgba(92, 167, 242, 0.82);
+    border-radius: 63px;
+
+    flex: none;
+    margin-left: 15%;
+    margin-top: 115px;
+    margin-right: 5%;
+}
+
+.paragraphe p {
+    font-family: 'Jacques Francois';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24);
+}
+
+
+/* --------------Troisième partie-------------- */
+.troisiemePart {
+    background-color: #35B863;
+    height: 700px;
+    text-align: center;
+}
+
+.titreSaison {
+    width: 300px;
+    height: 47px;
+
+    font-family: 'Smooch Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+
+    color: #017302;
+
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.saisons {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    margin: 10%;
+    margin-top: 2%;
+}
+
+
+/* --------------PAUSE partie-------------- */
+.pausePart {
+    background-image: url("../Images/culture/books.jpg"), linear-gradient(to bottom, rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.027));
+    background-attachment: fixed;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* --------------Quatrième partie-------------- */
+.quatriemePart {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.quatriemePart div:nth-child(4),
+div:nth-child(5),
+div:nth-child(8) {
+    align-self: flex-end;
+}
+
+.liens {
+    text-decoration: none;
+    color: #F7AD00;
+
+    width: 200px;
+    height: 100px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.AnePasRater {
+    width: 590px;
+    height: 95px;
+
+    font-family: 'Smooch Sans';
+    font-style: normal;
+    font-size: 45px;
+    line-height: 77px;
+    letter-spacing: -0.02em;
+
+    color: #F7AD00;
+
+    margin-left: 30%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.lignesV2 {
+    margin: 30px;
+    width: 693px;
+    height: 3px;
+    border: 5px solid #F7AD00;
+    border-radius: 30px;
+}
+
+.carousel {
+    width: 800px;
+    margin-left: 25%;
+}
+
+.bodyCulture .quatriemePart .overlay {
+    width: 80%;
+    height: 30%;
+    left: 10%;
+    bottom: 10%;
+    top: auto;
+}
+
+.carousel .overlay_text {
+    word-wrap: break-word;
+    font-size: 0.7vw;
+}
+
+.article1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.article1 div {
+    margin-right: 60px;
+    margin-left: 50px;
+}
+
+.article1 div:first-child {
+    margin-top: 12%;
+}
+
+.article2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.article2 div {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.article2 div:last-child {
+    margin-top: 15%;
+}
+
+.img2Part4 {
+    width: 650px;
+}
+
+/* --------------RESPONSIVE-------------- */
+@media screen and (max-width: 1200px) {
+    .encadreTitre {
+        width: 350px;
+        height: 200px;
+    }
+
+    .titre {
+        left: 150px;
+        top: 320px;
+    }
+
+    .imgPresentation {
+        margin-left: 30%;
+    }
+
+    .troisiemePart {
+        height: 600px;
+    }
+
+    .carousel {
+        margin-left: 18%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .imgPresentation {
+        margin-left: 60%;
+        width: 200px;
+    }
+
+    .carousel {
+        margin-left: 30%;
+        width: 500px;
+    }
+
+    .paragraphe {
+        width: 400px;
+        height: 233px;
+
+        margin-left: 30%;
+        margin-top: 6%;
+        margin-right: 9%;
+    }
+
+    .paragraphe p {
+        font-size: 15px;
+    }
+
+    .AnePasRater {
+        margin-left: 25%;
+        margin-top: 1%;
+        margin-bottom: 0;
+    }
+
+    .article1 div {
+        margin-left: 6%;
+    }
+
+    .img1Part4 {
+        width: 400px;
+    }
+
+    .article1 div:first-child {
+        margin-top: 8%;
+    }
+
+    .img2Part4 {
+        width: 400px;
+    }
+
+    .article2 div:last-child {
+        margin-top: 8%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .deuxiemePart {
+        display: block;
+    }
+
+    .banniere {
+        display: block;
+    }
+
+    .imgPresentation {
+        display: none;
+        margin-left: 40%;
+    }
+
+    .paragraphe {
+        position: static;
+        margin-top: 5%;
+    }
+
+    .lignesV1,
+    .lignesV2 {
+        width: 85%;
+    }
+
+    .carousel {
+        margin-left: 21%;
+    }
+
+    .AnePasRater {
+        margin-left: 16%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .lignesV1 {
+        margin-left: 20px;
+        margin: 40px;
+        border: 3px solid rgba(92, 167, 242, 0.82);
+    }
+
+    .lignesV2 {
+        border: 3px solid #F7AD00;
+    }
+
+    .paragraphe {
+        margin-left: 24%;
+    }
+
+    .saisons {
+        flex-direction: column;
+    }
+
+    .card {
+        margin: 10%;
+        margin-top: 2%;
+        width: 600px;
+    }
+
+    .troisiemePart {
+        height: auto;
+    }
+
+    .carousel {
+        width: 350px;
+        margin-left: 27%;
+    }
+
+    .article1 {
+        display: block;
+    }
+
+    .article2 {
+        display: block;
+    }
+
+    .liens {
+        font-size: 24px;
+    }
+
+    .img1Part4 {
+        width: 280px;
+        margin-left: -20%;
+    }
+
+    .article1 div:first-child,
+    .article2 div:last-child {
+        margin-top: 2%;
+    }
+
+    .img2Part4 {
+        width: 280px;
+        margin-left: 35%;
+    }
+
+}
+
+@media screen and (max-width: 765px) {
+    .premierePart {
+        background-image: none;
+        background-color: aliceblue;
+        height: 350px;
+    }
+
+    .encadreTitre {
+        width: auto;
+        height: 100px;
+        top: 30%;
+        left: 35vw;
+    }
+
+    .titre {
+        font-size: 26px;
+        top: 34%;
+        left: 44vw;
+    }
+
+    .card {
+        width: 400px;
+        margin-left: 21%;
+    }
+
+    .pausePart {
+        height: 200px;
+    }
+
+    .AnePasRater {
+        font-size: 34px;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .paragraphe {
+        margin-left: auto;
+    }
+
+    .card {
+        margin-left: auto;
+    }
+
+    .AnePasRater {
+        margin-left: 0;
+    }
+}
+
+
+/* --------------ANIMATIONS (OU EN JS)-------------- */

@@ -7,6 +7,9 @@ import journeeEuro from "../Images/Home/journeeEuro.png"
 import projet from "../Images/Home/ImageProjet.jpg"
 import ImageEau from "../Images/Home/ImageEau.png"
 import ImageEnfant from "../Images/Home/Enfant.png"
+
+import imgCarousel1 from "../Images/culture/theatre2.jpg"
+import imgCarousel2 from "../Images/culture/theatre3.jpg"
 import { Link } from "react-router-dom";
 
 function Slider({classe}) {
@@ -65,12 +68,31 @@ function Slider({classe}) {
     }
   ]
 
+  const data3 =[
+    {
+      id: 1,
+      image: `${imgCarousel1}`,
+      title: "« Espace culturel Louis Nodon » à Vernoux en Vivarais",
+      text: "L’« Espace culturel Louis Nodon » a été inauguré le 24 novembre 2012. Cette salle propose depuis, une diversité de spectacles à destination de tous : théâtre, musique, danse, cirque, etc...",
+    },
+    {
+      id: 2,
+      image: `${imgCarousel2}`,
+      title: "« Espace culturel Louis Nodon » à Vernoux en Vivarais",
+      text: "L’« Espace culturel Louis Nodon » a été inauguré le 24 novembre 2012. Cette salle propose depuis, une diversité de spectacles à destination de tous : théâtre, musique, danse, cirque, etc...",
+    }
+  ]
+
   let datas;
   
   if(classe === "first"){
     datas =data1;
-  }else{
+  }
+  if(classe === "second"){
     datas = data2;
+  }
+  if(classe === "culture"){
+    datas = data3;
   }
 
   return (
