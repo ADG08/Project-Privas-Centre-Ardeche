@@ -81,16 +81,17 @@
     display: flex;
     align-self: center;
     justify-items: center;
-    flex-direction: column  ;
+    flex-direction: column;
 }
 
 .buttonFooter>* {
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .cercleFooter {
 
-    background-color: rgb(49, 113, 231);
+    background-color: #023E7D;
     border-radius: 90%;
     width: 150px;
     height: 150px;

@@ -8,17 +8,17 @@ import ImageEau from "../Images/Home/ImageEau.png"
 
 import ImageEnfant from "../Images/Home/Enfant.png"
 import poubellesImg from "../Images/Home/poubelles.jpg"
-import transportImg from "../Images/Home/transport.png" 
-import economieImg from "../Images/Home/economie.png" 
+import transportImg from "../Images/Home/transport.png"
+import economieImg from "../Images/Home/economie.png"
 
 import imgCarousel1 from "../Images/culture/theatre2.jpg"
 import imgCarousel2 from "../Images/culture/theatre3.jpg"
 import { Link } from "react-router-dom";
 
-function Slider({classe}) {
-  
+function Slider({ classe }) {
 
-  const data1 =[
+
+  const data1 = [
     {
       id: 1,
       image: `${journeeEuro}`,
@@ -50,13 +50,13 @@ function Slider({classe}) {
       image: `${poubellesImg}`,
       title: "Déchetteries et déchets ménagers",
       text: "Pas d’inquiétudes, les déchetteries à Privas, à Flaviac, à La Voulte sur Rhône, à Saint Sauveur de Montagut, au Pouzin, à Vernoux en Vivarais sont ouvertes.",
-    }, 
+    },
     {
       id: 3,
       image: `${transportImg}`,
       title: "Transport",
       text: "Le covoiturage est un mode de transport utile et sûr pour vous déplacer au quotidien tout en limitant vos contacts. Dans le cadre de la crise sanitaire, il est possible de covoiturer et de se déplacer en respectant les directives gouvernementales !",
-    }, 
+    },
     {
       id: 4,
       image: `${economieImg}`,
@@ -65,7 +65,7 @@ function Slider({classe}) {
     }
   ]
 
-  const data3 =[
+  const data3 = [
     {
       id: 1,
       image: `${imgCarousel1}`,
@@ -81,22 +81,26 @@ function Slider({classe}) {
   ]
 
   let datas;
-  
-  if(classe === "first"){
-    datas =data1;
+  let time;
+
+  if (classe === "first") {
+    datas = data1;
+    time = 4000;
   }
-  if(classe === "second"){
+  if (classe === "second") {
     datas = data2;
+    time = 4150;
   }
-  if(classe === "culture"){
+  if (classe === "culture") {
     datas = data3;
+    time = 4000;
   }
 
   return (
-    <Carousel autoPlay interval={6000} infiniteLoop>
+    <Carousel autoPlay interval={time} infiniteLoop>
       {datas.map(slide => (
         <div key={slide.id}>
-          <img src={slide.image} alt=""/>
+          <img src={slide.image} alt="" />
           <div className="overlay">
             <h2 className="overlay_title">{slide.title}</h2>
             <p className="overlay_text">{slide.text}</p>

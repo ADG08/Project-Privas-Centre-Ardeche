@@ -1,28 +1,26 @@
-
 .Trv {
     width: 100%;
-    height: 80vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;    
+    justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 
-.Trv img{
+.Trv img {
     height: 30vw;
     width: 35vw;
-
 }
 
-.Trv h1{
+.Trv h1 {
     font-size: 3vw;
 }
 
-.Trv .rec{
+.Trv .rec {
     margin-top: 20px;
     width: 50%;
     height: 20px;
-    border: 2px solid gray;
+    border: solid gray;
     border-radius: 999em 999em 999em 999em;
 
     display: flex;
@@ -30,10 +28,10 @@
     justify-content: flex-start;
 }
 
-.Trv .content{
+.Trv .content {
     width: 70%;
-    
+
     height: 100%;
-    background-color: green;
+    background-color: #017302;
     border-radius: 999em 999em 999em 999em;
 }
