@@ -1,6 +1,6 @@
 import "./Environnement.css"
 import RapidButton from "../Components/RapidButton.js"
-import Titre_env from "../Images/Environnement/encadre.png"
+import Titre_env from "../Images/Decouvrir-Privas/encadre.png"
 import Energie_img from "../Images/Environnement/Energie.jpg"
 import Eau_img from "../Images/Environnement/eau.png"
 import dechets_img from "../Images/Environnement/tri_selectif.png"
@@ -44,7 +44,7 @@ function Environnement() {
           <h1 className="ButtonTitleEnv">Liens rapides</h1>
         </div>
         <div className="ButtonDivEnv">
-          <RapidButton image={tri} text="Tri sélectif" to="/Travaux" /> 
+          <RapidButton image={tri} text="Tri sélectif" to="/Travaux" />
           <RapidButton image={solaire} text="Energie positive" to="/Travaux" />
           <RapidButton image={riviere} text="Les rivières" to="/Travaux" />
           <RapidButton image={potable} text="Eau potable" to="/Travaux" />

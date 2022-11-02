@@ -1,114 +1,350 @@
-.imgdec {
-    width: 100%;
-    height: 100vh;
-  }
-  
-  .dec {
-    position: absolute;
-    width: 100%;
-    top: 6vw; 
-    left: 3vw;
-    font-family: 'Inter';
-    font-style: normal;
-    font-size:2.5vw;
-    font-weight: 900;
-    line-height: 48px;
-    letter-spacing: -0.02em;
-    color: #FFFFFF;
-    -webkit-text-stroke: 0.5px #053605;
-    text-shadow: 0px 4px 4px #18801a;
-  }
-  
-  .divdec {
-    position: absolute;
-    width: 20vw;
-    height: 47px;
-    left: 40px;
-    top: 160px;
-  }
-  
+.first_partdec {
+  width: 100%;
+  height: 800px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.626), rgba(0, 0, 0, 0.027)),
+    url("../Images/Decouvrir-Privas/privas.PNG");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+}
+
+
+/*Partie titre*/
+
+.dec {
+  position: absolute;
+  width: 110%;
+  top: 7vw;
+  left: 6vw;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 3vw;
+  font-weight: 900;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+
+  color: #FFFFFF;
+  -webkit-text-stroke: 0.5px #053605;
+  text-shadow: 0px 4px 4px #18801a;
+}
+
+.titredec {
+  position: absolute;
+  width: 20vw;
+  height: 47px;
+  left: 40px;
+  top: 160px;
+}
+
+.imgtitredec {
+  position: absolute;
+  top: 25vh;
+  left: 3vw;
+  width: 35vw;
+  height: 17vw;
+}
+
+
+/* rapid button */
+
+.privas .ButtonTitle {
+  margin-left: 30px;
+}
+
+.first_partdec .ButtonDivdec {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.first_partdec .ButtonDivdec .cercle:nth-child(1) a {
+  background-color: white;
+  box-shadow: 0px 0px 0px 12px #F7AD00 inset;
+}
+
+.first_partdec .ButtonDivdec .cercle:nth-child(1) {
+  position: absolute;
+  right: 27vw;
+  top: 5vh;
+}
+
+.first_partdec .ButtonDivdec .cercle:nth-child(2) a {
+  background-color: white;
+  box-shadow: 0px 0px 0px 12px #4AA003 inset;
+}
+
+.first_partdec .ButtonDivdec .cercle:nth-child(2) {
+  position: absolute;
+  right: 7vw;
+  top: 37vh;
+  transform: scale(1.3);
+}
+
+.first_partdec .ButtonDivdec .cercle:nth-child(3) a {
+  background-color: white;
+  box-shadow: 0px 0px 0px 12px #188019 inset;
+}
+
+.first_partdec .ButtonDivdec .cercle:nth-child(3) {
+  position: absolute;
+  top: 64vh;
+  right: 40vw;
+  transform: scale(1.6);
+}
+
+.privas .cercle img:hover {
+  opacity: 25%;
+  transition: 1s;
+}
+
+.first_partdec .ButtonDivdec .cercle .items p {
+  font-size: 200%;
+  text-align: center;
+}
+
+
+/* 2eme partie */
+
+.deuxiemePartdec {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+.lignesV1dec {
+  margin: 4.3vw;
+  width: 42vw;
+  height: 0.5vh;
+  border: 5px solid rgba(92, 167, 242, 0.82);
+  border-radius: 30px;
+}
+
+.deuxiemePartdec div:nth-child(3) {
+  align-self: flex-end;
+}
+
+.bannieredec {
+  width: 102%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.imgPresentationdec {
+  border-radius: 30px;
+  width: 30vw;
+}
+
+.paragraphedec {
+  padding: 1.6em;
+  width: 40.6vw;  
+
+  background: rgba(92, 167, 242, 0.82);
+  border-radius: 63px;
+
+  flex: none;
+
+  margin-top: 9vw;
+  margin-left: 15%;
+  margin-right: 5%;
+}
+
+.paragraphedec p {
+  font-family: 'Jacques Francois';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+
+  color: #FFFFFF;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24);
+}
+
+
+/* banderole */
+
+.pausePartdec {
+  background-image: url("../Images/Decouvrir-Privas/pause.jpg"), linear-gradient(to bottom, rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.027));
+  background-attachment: fixed;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* 3eme partie */
+
+.troisiemePartdec {
+  background-color: #35B863;
+}
+
+.troisiemePartdec .ButtonDivdec {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.troisiemePartdec .ButtonTitledec {
+  margin-top: 1vh;
+  font-family: 'Smooch Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #017302;
+  -webkit-text-stroke: 0.5px #053605;
+}
+
+.troisiemePartdec .ButtonDivdec .cercle a {
+  background-color: #017302;
+}
+
+.troisiemePartdec .ButtonDivdec .cercle .items p {
+  font-size: 20px;
+  text-align: center;
+}
+
+
+/* Partie responsive */
+
+@media only screen and (max-width: 765px) {
+
+  /* premiere partie*/
+
   .imgtitredec {
-    width: 100%;
-  }
-  
-  .divimgtitre_dec {
-    position: absolute;
-    width: 25%;
-    height: 248px;
-    left: 40px;
-    top: 199px;
-  }
-  
-  .ButtonDivDec {
-    position: absolute;
-    right: 20vw;
-    top: 160px;
-  }
-  
-  .ButtonDivDec .cercle:nth-child(1) a {
-    background-color: white;
-    box-shadow:0px 0px 0px 10px #F7AD00;
-  }
-  
-  .ButtonDivDec .cercle:nth-child(1) {
-    position: absolute;
-    right: 10vw;
-    transform: scale(1);
-  }
-  
-  .ButtonDivDec .cercle:nth-child(2) a {
-    background-color: white;
-    box-shadow:0px 0px 0px 10px #4AA003;
-  }
-  
-  .ButtonDivDec .cercle:nth-child(2) {
-    position: absolute;
-    top : 30vh;
-    transform: scale(1.5);
-  }
-  
-  .ButtonDivDec .cercle:nth-child(3) a {
-    background-color: white;
-    box-shadow:0px 0px 0px 10px #188019;
-  }
-  
-  .ButtonDivDec .cercle:nth-child(3) {
-    position: absolute;
-    top: 52vh;
-    right: 27vw;
-    transform: scale(1.8);
-  }
-  
-  .ButtonDivDec .cercle img:hover {
-    opacity: 25%;
-    transition: 1s;
+    width: auto;
+    height: 100px;
+    top: 30%;
+    left: 34vw;
   }
 
-  .ButtonDivDec .cercle .items p {
-    font-size: 2vw;
+  .dec {
+    font-size: 23px;
+    top: 72px;
+    left: 31vw;
+  }
+
+  .first_partdec {
+    background-image: none;
+    background-color: aliceblue;
+    height: 400px;
+  }
+
+  .divdec {
+    top: 163px;
+  }
+
+  .first_partdec .ButtonDivdec {
+    height: 250px;
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+
+  .first_partdec .ButtonDivdec .cercle {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .first_partdec .ButtonDivdec .cercle:nth-child(3) {
+    right: 69vw;
+    top: 32vh;
+    transform: scale(1.3);
+  }
+
+  .first_partdec .ButtonDivdec .cercle:nth-child(2) {
+    right: 39vw;
+    top: 32vh;
+    transform: scale(1.3);
+  }
+
+  .first_partdec .ButtonDivdec .cercle:nth-child(1) {
+    right: 9vw;
+    top: 32vh;
+    transform: scale(1.3);
+  }
+
+
+  .first_partdec .ButtonDivdec .cercle .items a {
+    width: auto;
+    width: 100px;
+    height: 100px;
+  }
+
+  .first_partdec .ButtonDivdec .cercle .items p {
+    font-size: 2.8vw;
     text-align: center;
   }
-  
-  @media only screen and (max-width: 765px) {
-    .ButtonDivDec {
-      height: 250px;
-      align-items: flex-start;
-      align-content: flex-start;
-    }
-  
-    .ButtonDivDec .cercle {
-      margin: 10px;
-      width: 100px;
-      height: 100px;
-    }
-  
-    .ButtonDivDec .cercle .items a {
-      width: auto;
-      width: 100px;
-      height: 100px;
-    }
-    .ButtonDivDec .cercle .items p {
-      font-size: 3vw;
-      text-align: center;
-    }
+
+  /* 2eme partie*/
+
+  .paragraphedec {
+    margin-top: 10px;
   }
+
+  /* pause*/
+
+  .pausePartdec {
+    background-image: none;
+    height: 0px;
+  }
+
+}
+
+
+@media screen and (max-width: 900px) {
+
+  .deuxiemePartdec {
+    display: block;
+  }
+
+  .bannieredec {
+    display: block;
+  }
+
+  .imgPresentationdec {
+    display: none;
+  }
+
+  .paragraphedec {
+    position: static;
+    margin-top: 5%;
+    margin-left: 24%;
+  }
+
+  .lignesV1dec {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .lignesV1dec {
+    margin-left: 20px;
+    margin: 40px;
+    border: 3px solid rgba(92, 167, 242, 0.82);
+  }
+
+}
+
+@media screen and (max-width: 560px) {
+  .paragraphedec {
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 728px) {
+  .dec {
+    font-size: 15px;
+    left: 35vw;
+  }
+}
