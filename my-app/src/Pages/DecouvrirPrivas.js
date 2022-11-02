@@ -1,7 +1,7 @@
 import "./DecouvrirPrivas.css"
 import RapidButton from "../Components/RapidButton.js"
 import BackgroundImageTopDec from "../Images/Decouvrir-Privas/privas.PNG"
-import Titre_dec from "../Images/Titres.png"
+import Titre_dec from "../Images/Decouvrir-Privas/encadre.png"
 import Communes_img from "../Images/Decouvrir-Privas/privas_communes.png"
 import tourisme_img from "../Images/Decouvrir-Privas/tourrisme.png"
 import territoire_img from "../Images/Decouvrir-Privas/cerisier.png"
