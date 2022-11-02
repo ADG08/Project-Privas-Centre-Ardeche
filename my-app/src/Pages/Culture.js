@@ -19,7 +19,9 @@ function Culture() {
 
       <div className="premierePart">
         <img src={encadreTitre} alt="" className="encadreTitre"></img>
-        <h1 className="titre">Culture</h1>
+        <div className="titrecult">
+          <h1 className="titre">Culture</h1>
+        </div>
         <div className="ButtonDivCult">
           <RapidButton image={imgScience} text="Culture scientifique, technique et industrielle" to="/culture" />
           <RapidButton image={imgTheatre} text="Théâtre de Privas" to="/culture" />
