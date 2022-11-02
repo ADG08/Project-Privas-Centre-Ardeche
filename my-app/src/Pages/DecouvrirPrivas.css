@@ -39,7 +39,7 @@
 
 .imgtitredec {
   position: absolute;
-  top: 25vh;
+  top: 30vh;
   left: 3vw;
   width: 35vw;
   height: 17vw;
@@ -230,7 +230,7 @@
 
   .dec {
     font-size: 23px;
-    top: 72px;
+    top: 30px;
     left: 31vw;
   }
 
@@ -344,7 +344,7 @@
 
 @media screen and (max-width: 728px) {
   .dec {
-    font-size: 15px;
+    font-size: 13px;
     left: 35vw;
   }
 }
