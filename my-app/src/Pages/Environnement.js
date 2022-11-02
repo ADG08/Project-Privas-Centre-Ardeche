@@ -1,6 +1,6 @@
 import "./Environnement.css"
 import RapidButton from "../Components/RapidButton.js"
-import Titre_env from "../Images/Titres.png"
+import Titre_env from "../Images/Decouvrir-Privas/encadre.png"
 import Energie_img from "../Images/Environnement/Energie.jpg"
 import Eau_img from "../Images/Environnement/eau.png"
 import dechets_img from "../Images/Environnement/tri_selectif.png"
