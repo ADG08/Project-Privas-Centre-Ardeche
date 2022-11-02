@@ -17,33 +17,49 @@
 
 .encadreTitre {
     position: absolute;
-    top: 250px;
-    left: 50px;
-    width: 545px;
-    height: 248px;
+    top: 25vh;
+    left: 3vw;
+    width: 35vw;
+    height: 17vw;
 }
 
 .titre {
     position: absolute;
-    width: 304px;
-    height: 47px;
-    left: 260px;
-    top: 335px;
+    width: 100%;
+    top: 7vw;
+    left: 12vw;
 
     font-family: 'Inter';
     font-style: normal;
-    font-size: 40px;
+    font-size: 3vw;
+    font-weight: 900;
     line-height: 48px;
     letter-spacing: -0.02em;
 
     color: #FFFFFF;
-    text-shadow: 0px 4px 4px #188019;
+    -webkit-text-stroke: 0.5px #053605;
+    text-shadow: 0px 4px 4px #18801a;
+}
+
+.titrecult {
+    position: absolute;
+    width: 20vw;
+    height: 47px;
+    left: 40px;
+    top: 160px;
+}
+
+.ButtonTitle {
+    margin-left: 30px;
 }
 
 .ButtonDivCult {
     position: absolute;
-    right: 20vw;
-    top: 160px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .ButtonDivCult .cercle:nth-child(1) a {
@@ -53,8 +69,12 @@
 
 .ButtonDivCult .cercle:nth-child(1) {
     position: absolute;
-    right: 10vw;
-    transform: scale(1);
+    right: 27vw;
+    top: 5vh;
+}
+
+.ButtonDivCult .cercle:nth-child(1) .items .p {
+    font-size: 150%;
 }
 
 .ButtonDivCult .cercle:nth-child(2) a {
@@ -64,8 +84,9 @@
 
 .ButtonDivCult .cercle:nth-child(2) {
     position: absolute;
-    top: 30vh;
-    transform: scale(1.5);
+    right: 7vw;
+    top: 37vh;
+    transform: scale(1.3);
 }
 
 .ButtonDivCult .cercle:nth-child(3) a {
@@ -75,9 +96,9 @@
 
 .ButtonDivCult .cercle:nth-child(3) {
     position: absolute;
-    top: 52vh;
-    right: 27vw;
-    transform: scale(1.8);
+    top: 64vh;
+    right: 40vw;
+    transform: scale(1.6);
 }
 
 .ButtonDivCult .cercle img:hover {
@@ -86,68 +107,8 @@
 }
 
 .ButtonDivCult .cercle .items p {
-    font-size: 1.5vw;
     text-align: center;
 }
-  
-
-  /*----RESPONSIVE des buttons---*/
-  @media only screen and (max-width: 765px) {
-
-    .ButtonDivCult .cercle {
-      margin: 10px;
-      width: 100px;
-      height: 100px;
-    }
-
-    .ButtonDivCult .cercle:nth-child(3) {
-        top: 29vh;
-        right: 48vw;
-    }
-    .ButtonDivCult .cercle:nth-child(2) {
-        top: 31vh;
-        right: 15vw;
-    }
-    .ButtonDivCult .cercle:nth-child(1) {
-        top: 34vh;
-        left: -7vw;
-    }
-    
-    .ButtonDivCult .cercle:nth-child(1) a {
-        box-shadow: 0px 0px 0px 5px #F7AD00 inset;
-    }
-
-    .ButtonDivCult .cercle:nth-child(2) a {
-        background-color: white;
-        box-shadow: 0px 0px 0px 5px #4AA003 inset;
-    }
-
-    .ButtonDivCult .cercle:nth-child(3) a {
-        background-color: white;
-        box-shadow: 0px 0px 0px 5px #188019 inset;
-    }
-
-    .ButtonDivCult .cercle .items a {
-      width: auto;
-      width: 100px;
-      height: 100px;
-    }
-
-    .ButtonDivCult .cercle .items p {
-      font-size: 2vw;
-      text-align: center;
-    }
-    .ButtonDivCult .cercle:nth-child(1) .items p {
-        font-size: 1.7vw;   
-        margin-top: 2vw;
-    }
-    .ButtonDivCult .cercle:nth-child(2) .items p {
-        margin-top: 2vw;
-    }
-    .ButtonDivCult .cercle:nth-child(3) .items p {
-        margin-top: 1vw;
-    }
-  }
 
 
 /* --------------Deuxième partie-------------- */
@@ -250,20 +211,20 @@
     width: 30vw;
 }
 
-.troisiemePart .saisons .card-body{
+.troisiemePart .saisons .card-body {
     height: 12vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-} 
+}
 
-.troisiemePart .saisons .card-text{
-    margin: 2% 4% 2% 4% ;
+.troisiemePart .saisons .card-text {
+    margin: 2% 4% 2% 4%;
     word-wrap: break-word;
     font-size: 1.3vw;
 }
 
-.troisiemePart .saisons .card-title{
+.troisiemePart .saisons .card-title {
     margin: 0;
     margin-top: 2%;
     font-size: 1.5vw;
@@ -383,15 +344,6 @@ div:nth-child(8) {
 
 /* --------------RESPONSIVE-------------- */
 @media screen and (max-width: 1200px) {
-    .encadreTitre {
-        width: 350px;
-        height: 200px;
-    }
-
-    .titre {
-        left: 150px;
-        top: 320px;
-    }
 
     .imgPresentation {
         margin-left: 30%;
@@ -500,12 +452,12 @@ div:nth-child(8) {
     .paragraphe {
         margin-left: 24%;
     }
-    
+
     .saisons {
         flex-direction: column;
         align-items: center;
     }
- 
+
 
     .carousel {
         width: 350px;
@@ -545,20 +497,91 @@ div:nth-child(8) {
     .premierePart {
         background-image: none;
         background-color: aliceblue;
-        height: 350px;
+        height: 400px;
     }
 
     .encadreTitre {
         width: auto;
         height: 100px;
         top: 30%;
-        left: 35vw;
+        left: 34vw;
     }
 
     .titre {
         font-size: 26px;
-        top: 34%;
-        left: 44vw;
+        top: 70px;
+        left: 36vw;
+    }
+
+    .titrecult {
+        top: 163px;
+    }
+
+    .ButtonDivCult {
+        height: 250px;
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+
+    .ButtonDivCult .cercle {
+        margin: 10px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .ButtonDivCult .cercle:nth-child(3) {
+        right: 69vw;
+        top: 32vh;
+        transform: scale(1.3);
+    }
+
+    .ButtonDivCult .cercle:nth-child(2) {
+        right: 39vw;
+        top: 32vh;
+        transform: scale(1.3);
+    }
+
+    .ButtonDivCult .cercle:nth-child(1) {
+        right: 9vw;
+        top: 32vh;
+        transform: scale(1.3);
+    }
+
+
+
+    .ButtonDivCult .cercle:nth-child(1) a {
+        box-shadow: 0px 0px 0px 5px #F7AD00 inset;
+    }
+
+    .ButtonDivCult .cercle:nth-child(2) a {
+        background-color: white;
+        box-shadow: 0px 0px 0px 5px #4AA003 inset;
+    }
+
+    .ButtonDivCult .cercle:nth-child(3) a {
+        background-color: white;
+        box-shadow: 0px 0px 0px 5px #188019 inset;
+    }
+
+    .ButtonDivCult .cercle .items a {
+        width: auto;
+        width: 100px;
+        height: 100px;
+    }
+
+    .ButtonDivCult .cercle:nth-child(3) .items p {
+        font-size: 2.8vw;
+        text-align: center;
+    }
+
+    .ButtonDivCult .cercle:nth-child(2) .items p {
+        font-size: 2.8vw;
+        text-align: center;
+    }
+
+    .ButtonDivCult .cercle:nth-child(1) .items p {
+        font-size: 2vw;
+        text-align: center;
     }
 
     .pausePart {
@@ -572,9 +595,11 @@ div:nth-child(8) {
 }
 
 @media screen and (max-width: 560px) {
+
     .paragraphe {
         margin-left: auto;
     }
+
     .AnePasRater {
         margin-left: 0;
     }
