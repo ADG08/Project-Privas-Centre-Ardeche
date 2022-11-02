@@ -1,4 +1,4 @@
-.environnement {
+.first_part {
   width: 100%;
   height: 800px;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.626), rgba(0, 0, 0, 0.027)),
@@ -48,11 +48,11 @@
 
 /* rapid button */
 
-.ButtonTitle {
+.environnement .ButtonTitle {
   margin-left: 30px;
 }
 
-.ButtonDivEnv {
+.first_part .ButtonDivEnv {
   position: absolute;
   display: flex;
   width: 100%;
@@ -61,35 +61,35 @@
   flex-wrap: wrap;
 }
 
-.ButtonDivEnv .cercle:nth-child(1) a {
+.first_part .ButtonDivEnv .cercle:nth-child(1) a {
   background-color: white;
   box-shadow: 0px 0px 0px 9px #F7AD00 inset;
 }
 
-.ButtonDivEnv .cercle:nth-child(1) {
+.first_part .ButtonDivEnv .cercle:nth-child(1) {
   position: absolute;
   right: 27vw;
   top: 5vh;
 }
 
-.ButtonDivEnv .cercle:nth-child(2) a {
+.first_part .ButtonDivEnv .cercle:nth-child(2) a {
   background-color: white;
   box-shadow: 0px 0px 0px 9px #4AA003 inset;
 }
 
-.ButtonDivEnv .cercle:nth-child(2) {
+.first_part .ButtonDivEnv .cercle:nth-child(2) {
   position: absolute;
   right: 7vw;
   top: 37vh;
   transform: scale(1.3);
 }
 
-.ButtonDivEnv .cercle:nth-child(3) a {
+.first_part .ButtonDivEnv .cercle:nth-child(3) a {
   background-color: white;
-  box-shadow: 0px 0px 0px 10px #188019 inset;
+  box-shadow: 0px 0px 0px 9px #188019 inset;
 }
 
-.ButtonDivEnv .cercle:nth-child(3) {
+.first_part .ButtonDivEnv .cercle:nth-child(3) {
   position: absolute;
   top: 64vh;
   right: 40vw;
@@ -101,15 +101,121 @@
   transition: 1s;
 }
 
-.ButtonDivEnv .cercle .items p {
+.first_part .ButtonDivEnv .cercle .items p {
   font-size: 200%;
   text-align: center;
 }
 
 
-/*Partie responsive titre + rapid button*/
+/* 2eme partie */
+
+.deuxiemePartEnv {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+.lignesV1Env {
+  margin: 4.3vw;
+  width: 42vw;
+  height: 0.5vh;
+  border: 5px solid rgba(92, 167, 242, 0.82);
+  border-radius: 30px;
+}
+
+.deuxiemePartEnv div:nth-child(3) {
+  align-self: flex-end;
+}
+
+.banniereEnv {
+  width: 102%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.imgPresentationEnv {
+  border-radius: 30px;
+  width: 30vw;
+}
+
+.paragrapheEnv {
+  padding: 1.6em;
+  width: 40.6vw;
+  height: 37vh;
+
+  background: rgba(92, 167, 242, 0.82);
+  border-radius: 63px;
+
+  flex: none;
+
+  margin-top: 9vw;
+  margin-left: 15%;
+  margin-right: 5%;
+}
+
+.paragrapheEnv p {
+  font-family: 'Jacques Francois';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+
+  color: #FFFFFF;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24);
+}
+
+
+/* banderole */
+
+.pausePartEnv {
+  background-image: url("../Images/Environnement/paysage.jpg"), linear-gradient(to bottom, rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.027));
+  background-attachment: fixed;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* 3eme partie */
+
+.troisiemePartEnv {
+  background-color: #35B863;
+}
+
+.troisiemePartEnv .ButtonDivEnv {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.troisiemePartEnv .ButtonTitleEnv {
+  margin-top: 1vh;
+  font-family: 'Smooch Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #017302;
+  -webkit-text-stroke: 0.5px #053605;
+}
+
+.troisiemePartEnv .ButtonDivEnv .cercle a {
+  background-color: #017302;
+}
+
+
+/* Partie responsive */
 
 @media only screen and (max-width: 765px) {
+
+  /* premiere partie*/
 
   .imgtitrenv {
     width: auto;
@@ -124,7 +230,7 @@
     left: 31vw;
   }
 
-  .environnement {
+  .first_part {
     background-image: none;
     background-color: aliceblue;
     height: 400px;
@@ -134,61 +240,114 @@
     top: 163px;
   }
 
-  .ButtonDivEnv {
+  .first_part .ButtonDivEnv {
     height: 250px;
     align-items: flex-start;
     align-content: flex-start;
   }
 
-  .ButtonDivEnv .cercle {
+  .first_part .ButtonDivEnv .cercle {
     margin: 10px;
     width: 100px;
     height: 100px;
   }
 
-  .ButtonDivEnv .cercle:nth-child(3) {
+  .first_part .ButtonDivEnv .cercle:nth-child(3) {
     right: 69vw;
     top: 32vh;
     transform: scale(1.3);
   }
 
-  .environnement .cercle:nth-child(3) a {
+  .first_part .ButtonDivEnv .cercle:nth-child(3) a {
     box-shadow: 0px 0px 0px 0px #188019 inset;
     box-shadow: 0px 0px 0px 5px #188019;
   }
 
-  .ButtonDivEnv .cercle:nth-child(2) {
+  .first_part .ButtonDivEnv .cercle:nth-child(2) {
     right: 39vw;
     top: 32vh;
     transform: scale(1.3);
   }
 
-  .environnement .cercle:nth-child(2) a {
+  .first_part .ButtonDivEnv .cercle:nth-child(2) a {
     box-shadow: 0px 0px 0px 0px #4AA003 inset;
     box-shadow: 0px 0px 0px 5px #4AA003;
   }
 
-  .ButtonDivEnv .cercle:nth-child(1) {
+  .first_part .ButtonDivEnv .cercle:nth-child(1) {
     right: 9vw;
     top: 32vh;
     transform: scale(1.3);
   }
 
-  .environnement .cercle:nth-child(1) a {
+  .first_part .ButtonDivEnv .cercle:nth-child(1) a {
     background-color: white;
     box-shadow: 0px 0px 0px 0px #F7AD00 inset;
     box-shadow: 0px 0px 0px 5px #F7AD00;
   }
 
-  .ButtonDivEnv .cercle .items a {
+  .first_part .ButtonDivEnv .cercle .items a {
     width: auto;
     width: 100px;
     height: 100px;
   }
 
-  .ButtonDivEnv .cercle .items p {
+  .first_part .ButtonDivEnv .cercle .items p {
     font-size: 2.8vw;
     text-align: center;
   }
 
+  /* 2eme partie*/
+
+  .paragrapheEnv {
+    margin-top: 10px;
+  }
+
+  /* pause*/ 
+
+  .pausePartEnv {
+    background-image: none;
+    height: 0px;
+  }
+
+}
+
+
+@media screen and (max-width: 900px) {
+
+  .deuxiemePartEnv {
+    display: block;
+  }
+
+  .banniereEnv {
+    display: block;
+  }
+
+  .imgPresentationEnv {
+    display: none;
+  }
+
+  .paragrapheEnv {
+    position: static;
+    margin-top: 5%;
+    margin-left: 24%;
+  }
+
+  .lignesV1Env {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .lignesV1Env {
+    margin-left: 20px;
+    margin: 40px;
+    border: 3px solid rgba(92, 167, 242, 0.82);
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .paragrapheEnv {
+    margin-left: auto;
+  }
 }
