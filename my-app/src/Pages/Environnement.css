@@ -39,7 +39,7 @@
 
 .imgtitrenv {
   position: absolute;
-  top: 25vh;
+  top: 30vh;
   left: 3vw;
   width: 35vw;
   height: 17vw;
@@ -226,7 +226,7 @@
 
   .env {
     font-size: 26px;
-    top: 72px;
+    top: 20px;
     left: 31vw;
   }
 
